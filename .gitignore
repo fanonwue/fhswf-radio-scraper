@@ -2,3 +2,5 @@
 data/*
 !.gitkeep
 __pycache__
+.venv
+last_runs.json

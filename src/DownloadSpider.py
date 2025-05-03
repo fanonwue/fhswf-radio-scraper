@@ -10,6 +10,7 @@ from pathlib import Path
 
 class DownloadSpider(scrapy.Spider):
     name = None
+    interval = None
 
     def generate_name(self, response: Response) -> str:
         time = datetime.now(timezone.utc).isoformat(timespec="seconds")
