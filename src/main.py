@@ -15,21 +15,18 @@ def run():
 
     install_reactor("twisted.internet.asyncioreactor.AsyncioSelectorReactor")
     process = CrawlerProcess(SETTINGS)
-    # process.crawl(TestSpider)
-    # process.crawl(TestSpider2)
-    if spider_can_run(
-        last_run_list, OffizielleChartsSpider.name, OffizielleChartsSpider.interval
-    ):
-        process.crawl(OffizielleChartsSpider)
-        update_last_runs_list.append(OffizielleChartsSpider.name)
-    else:
-        print(f"Skipping spider {OffizielleChartsSpider.name}, interval not reached.")
 
-    if spider_can_run(last_run_list, DLFNovaSpider.name, DLFNovaSpider.interval):
-        process.crawl(DLFNovaSpider)
-        update_last_runs_list.append(DLFNovaSpider.name)
-    else:
-        print(f"Skipping spider {DLFNovaSpider.name}, interval not reached.")
+    spiders_to_run = []
+    spiders_to_run.append(OffizielleChartsSpider)
+    spiders_to_run.append(DLFNovaSpider)
+
+    for spider_to_run in spiders_to_run:
+        if spider_can_run(last_run_list, spider_to_run.name, spider_to_run.interval):
+            process.crawl(spider_to_run)
+            update_last_runs_list.append(spider_to_run.name)
+        else:
+            print(f"Skipping spider {spider_to_run.name}, interval not reached.")
+
     process.start()
     update_last_runs(update_last_runs_list)
 
