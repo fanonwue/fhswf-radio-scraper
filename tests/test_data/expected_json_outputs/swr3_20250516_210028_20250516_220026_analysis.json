@@ -1,0 +1,240 @@
+{
+    "filename": "swr3_20250516_210028_20250516_220026.txt",
+    "recording_start_timestamp_iso": "2025-05-16T21:00:28",
+    "recording_end_timestamp_iso": "2025-05-16T22:00:26",
+    "explicit_time_mentions_in_doc": [
+        [
+            2579,
+            "2025-05-16 21:03:00"
+        ],
+        [
+            14318,
+            "2025-05-16 21:48:00"
+        ],
+        [
+            14675,
+            "2025-05-16 21:48:00"
+        ]
+    ],
+    "news_segments": [
+        {
+            "sentences": [
+                "...Deutschlands machen zu wollen.",
+                "Was er z.B. angehen will, mehr Meinungsfreiheit,\nmodernere Behörden, mutige Reformen für Wirtschaft, Bildung und Migration.",
+                "Er prangerte eine skandalöse Schuldenpolitik der Union an\nund bezeichnete die AfD als Gefahr für die Demokratie.",
+                "Und Dürr will, dass sich die FDP nach der Wahlschlappe im Februar\nein neues Grundsatzprogramm erarbeitet.",
+                "Vor Dürrs Wahl haben die Delegierten hier im Saal\nstundenlang über die Wahlschlappe diskutiert.",
+                "Und das weitgehend ohne persönliche Schuldzuweisungen\nan die bisherige Parteiführung.",
+                "Fast 50 europäische Staats- und Regierungschefs\nhaben sich heute zu einem Gipfel\nin der albanischen Hauptstadt Tirana getroffen.",
+                "In kleinen Gruppen wurden die verschiedenen Themen besprochen,\ndarunter auch der Umgang mit Russland.",
+                "Andreas Meyer-Feist hat die Einzelheiten.",
+                "Zusammen mit dem ukrainischen Präsidenten Selensky\nund anderen führenden Regierungschefs\nbesprach man sich mit Donald Trump.",
+                "Die Europäer wollten sich mit dem US-Präsidenten abstimmen,\nwie weiter mit Russland umgegangen werden soll.",
+                "Mit dabei auch Bundeskanzler Friedrich Merz.",
+                "Für ihn war es der erste große Gipfel\nseit seinem Amtsantritt in der vergangenen Woche.",
+                "Israels Luftwaffe hat nach eigenen Angaben\nzwei Häfen im Jemen angegriffen.",
+                "Das Verteidigungsministerium erklärte,\nsie würden von der vom Iran unterstützten Houthi-Miliz kontrolliert\nund seien für Waffentransporte genutzt worden.",
+                "Bei den Angriffen seien schwere Schäden entstanden.",
+                "Das israelische Verteidigungsministerium drohte außerdem,\nJagd auf den Houthi-Anführer zu machen und ihn zu töten.",
+                "Deutschlands aktuell bester Speerwerfer Julian Weber aus Mainz\nhat beim Diamond League Meeting in Doha den Sieg geholt.",
+                "Zum ersten Mal in seiner Karriere knackte er die 90-Meter-Marke.",
+                "Weber, der Europameister von 2022,\nkam im letzten Versuch auf 91 Meter und 6 Zentimeter.",
+                "Mit spontanen Konzerten an zwölf badischen Bahnhöfen\nhaben Bläserinnen und Bläser der evangelischen Posaunenarbeit\nheute Reisende überrascht.",
+                "So spielten etwa im Karlsruher Hauptbahnhof\nrund 50 Musiker auf Trompeten, Posaunen, Hörnern und Tuben.",
+                "Ziel der Flashmobs war es,\ndie Bekanntheit der Posaunenarbeit\nder evangelischen Landeskirche in Baden zu stärken."
+            ],
+            "estimated_report_time": "2025-05-16 21:00:28",
+            "segment_start_char_offset": 0
+        }
+    ],
+    "traffic_report_segments": [
+        {
+            "sentences": [
+                "Das Neueste aus dem Verkehrszentrum,\ndamit ihr gut und sicher ankommt,\nVorsicht erst mal auf der B256 Neuwied Richtung Waldbrühl.",
+                "Zwischen Rengsdorf Nord und Bonefeld.",
+                "Vorsicht auf der B312 Metzingen-Stuttgart\nzwischen Riederich und Bempflingen.",
+                "In beiden Richtungen sind hier Menschen auf der Fahrbahn.",
+                "Frankfurt Richtung Würzburg\nzwischen Frankfurt",
+                "Süd und Offenbacher Kreuz.",
+                "4 Kilometer Stau.\nA5 Karlsruhe Richtung Frankfurt\nzwischen Kronau und Kreuz-Walldorf.\n4 Kilometer stockender Verkehr.",
+                "Richtung Frankfurt\nzwischen Gambacher Kreuz und Butzbach.",
+                "An der Baustelle 3",
+                "Kilometer Stau.",
+                "Außerdem ist die Anschlussstelle Butzbach gesperrt.",
+                "A6 Mannheim Richtung Heilbronn\nzwischen Kreuz-Walldorf und Wieslach-Rauenberg.",
+                "Rechte Spur gesperrt.",
+                "2 Kilometer Stau.",
+                "A8 Karlsruhe",
+                "Richtung Stuttgart\nzwischen 3 Karlsruhe und Karlsbad.",
+                "Baustelle auf dem linken und dem mittleren Fahrstreifen.",
+                "3 Kilometer Stauverzögerung."
+            ],
+            "estimated_report_time": "2025-05-16 21:08:43",
+            "segment_start_char_offset": 2590
+        },
+        {
+            "sentences": [
+                "Ach nee, guck mal, Frankfurt am Terminal 1 auf der B43 ist ja gerade weg.",
+                "Der ist aber weg, das ist super.",
+                "Das ist perfekt, weil jetzt genau endlich.",
+                "Das war eine Überbrückungsmeldung, die ist aber dann weggeflogen."
+            ],
+            "estimated_report_time": "2025-05-16 21:43:49",
+            "segment_start_char_offset": 13609
+        }
+    ],
+    "weather_report_segments": [
+        {
+            "sentences": [
+                "Der Wetterbericht für Baden-Württemberg und Rheinland-Pfalz.",
+                "Heute Nacht teils aufgelockert,\nteils stark bewölkt.",
+                "Von Rheinhessen und von der Vorderpfalz\nbis zum Allgäu örtlich Schauer.",
+                "Tiefstwerte zwischen 10 und 4 Grad.",
+                "Am Samstag zeitweite Sonne.",
+                "In Alpennähe einzelne Schauer oder Gewitter,\nsonst trocken maximal 14 bis 22 Grad."
+            ],
+            "estimated_report_time": "2025-05-16 21:07:34",
+            "segment_start_char_offset": 2229
+        }
+    ],
+    "conversation_segments": [
+        {
+            "sentences": [
+                "Er prangerte eine skandalöse Schuldenpolitik der Union an\nund bezeichnete die AfD als Gefahr für die Demokratie.",
+                "Und Dürr will, dass sich die FDP nach der Wahlschlappe im Februar\nein neues Grundsatzprogramm erarbeitet.",
+                "Vor Dürrs Wahl haben die Delegierten hier im Saal\nstundenlang über die Wahlschlappe diskutiert.",
+                "Und das weitgehend ohne persönliche Schuldzuweisungen\nan die bisherige Parteiführung.",
+                "Fast 50 europäische Staats- und Regierungschefs\nhaben sich heute zu einem Gipfel\nin der albanischen Hauptstadt Tirana getroffen.",
+                "In kleinen Gruppen wurden die verschiedenen Themen besprochen,\ndarunter auch der Umgang mit Russland.",
+                "Andreas Meyer-Feist hat die Einzelheiten.",
+                "Zusammen mit dem ukrainischen Präsidenten Selensky\nund anderen führenden Regierungschefs\nbesprach man sich mit Donald Trump.",
+                "Die Europäer wollten sich mit dem US-Präsidenten abstimmen,\nwie weiter mit Russland umgegangen werden soll.",
+                "Mit dabei auch Bundeskanzler Friedrich Merz.",
+                "Für ihn war es der erste große Gipfel\nseit seinem Amtsantritt in der vergangenen Woche.",
+                "Israels Luftwaffe hat nach eigenen Angaben\nzwei Häfen im Jemen angegriffen.",
+                "Das Verteidigungsministerium erklärte,\nsie würden von der vom Iran unterstützten Houthi-Miliz kontrolliert\nund seien für Waffentransporte genutzt worden.",
+                "Bei den Angriffen seien schwere Schäden entstanden.",
+                "Das israelische Verteidigungsministerium drohte außerdem,\nJagd auf den Houthi-Anführer zu machen und ihn zu töten.",
+                "Deutschlands aktuell bester Speerwerfer Julian Weber aus Mainz\nhat beim Diamond League Meeting in Doha den Sieg geholt.",
+                "Zum ersten Mal in seiner Karriere knackte er die 90-Meter-Marke.",
+                "Weber, der Europameister von 2022,\nkam im letzten Versuch auf 91 Meter und 6 Zentimeter."
+            ],
+            "estimated_report_time": "2025-05-16 21:00:58",
+            "segment_start_char_offset": 158
+        },
+        {
+            "sentences": [
+                "Eis auf das Herz, Eis auf das Herz des ZDF, 2020\n�� trachtest du, prescribe\nund ich habe ein Pens Jumpman des ZDF, 2020\nhalbes Erlebnis.",
+                "Das sind diese kleinen\nGeschichten.",
+                "Mir ist erst vor kurzem\nwieder ist mir das passiert.",
+                "Da stand\nich am Parkautomaten, wollte mir so ein Ticket ziehen.",
+                "Parkplatz, Auto, ja.",
+                "Genau, und dann kam\nso eine etwas ältere Frau, schon\nvon Weitem wild gestikulierend, aber\nfreudestrahlend auf mich zu.",
+                "Entschuldigung, Entschuldigung.",
+                "Ja, können Sie mir Geld leihen, was wollen Sie von Ihnen?",
+                "Ja, dachte ich auch, ich wollte mich schon umdrehen.",
+                "Bitte nicht ansprechen.",
+                "Nein, sie hat mir ihr Parkticket gegeben\nund da meinte sie, da ist noch über eine Stunde drauf,\nich musste nur ganz kurz, da können Sie haben.",
+                "Das ist doch so schön.",
+                "Guck mal, das ist doch\ngut, die Welt ist noch nicht verloren.",
+                "Wir machen, hallo Deutschland,\nBlitzumfrage, was ist in euch\nvielleicht schon mal Schönes passiert,\nwas man gar nicht rechnet, was\neinfach schön war, wo man denkt, ach die Menschen,\nguck mal, es ist noch nicht alles aus.",
+                "Völlig unbekannte Menschen, vielleicht\nhaben euch mal eine Riesenfreude gemacht.",
+                "Fragezeichen 072212011,\nkleine Blitzumfrage hier in eurer\nAbendshow.",
+                "072212011.\nAnrufen,\nWhatsApp, Signal, alles geht."
+            ],
+            "estimated_report_time": "2025-05-16 21:14:39",
+            "segment_start_char_offset": 4452
+        },
+        {
+            "sentences": [
+                "Das fand ich ganz, ganz großartig.",
+                "Und das ist immer noch das Highlight des Monats März.",
+                "Nichts ist schlimmer, als wenn man die Tonne vergesst.",
+                "Super, Grüße gehen an die Müllmänner und Müllfrauen\nin Schafflund im Kreis Schleswig-Flensburg.",
+                "Klasse, echt toll.",
+                "Sehr schön.",
+                "Hier kommt noch von Sonja."
+            ],
+            "estimated_report_time": "2025-05-16 21:21:39",
+            "segment_start_char_offset": 6653
+        },
+        {
+            "sentences": [
+                "Auf jeden Fall läuft ein junges, verliebtes Pärchen\nan mir vorbei,\nweil zwei Meter entfernt durch Hecken getrennt\nnoch eine Bank statt.",
+                "Nee, die steht immer noch.",
+                "Auf jeden Fall, was?",
+                "Ich verstehe die Nachricht nicht von dir, Sonja.",
+                "Auf jeden Fall muss der Junge so mitleidig...\nNee, es ging um einen Fruchtriegel.",
+                "Ich verstehe.",
+                "Ich habe so mitleidig geguckt, schreibt sie.",
+                "Weil sie alleine da saß.",
+                "Und dann hat er ihr einen Fruchtriegel geschenkt.",
+                "Der kam ganz stolz auf sie zu und sagte,\nso bitte schön, ein Fruchtriegel.",
+                "Ein Fruchtriegel.",
+                "Hat sich Sonja gefreut."
+            ],
+            "estimated_report_time": "2025-05-16 21:23:06",
+            "segment_start_char_offset": 7107
+        },
+        {
+            "sentences": [
+                "Heute, deswegen ganz frisch\nveröffentlicht.",
+                "Man muss auch sagen, die Berkling-Stiftung,\ndie ja nach seinem Tod von den Eltern\ngegründet worden ist.",
+                "Es ist ja gut, dass die\nTantiemen, alles was da veröffentlicht wird, geht ja\nin diese Stiftung zur Erhaltung\nder psychischen Gesundheit.",
+                "Das ist schon mal gut.",
+                "Let's Ride Away\nist das Ding, was heute rausgekommen ist von Avicii."
+            ],
+            "estimated_report_time": "2025-05-16 21:38:12",
+            "segment_start_char_offset": 11843
+        },
+        {
+            "sentences": [
+                "Das war die hier.",
+                "Ach,\ndie mit Exes\nund Os.",
+                "Und als damals Avicii\nFrau King angefragt hat,\nda war sie natürlich sofort dabei."
+            ],
+            "estimated_report_time": "2025-05-16 21:39:38",
+            "segment_start_char_offset": 12292
+        },
+        {
+            "sentences": [
+                "Jetzt ist es da.",
+                "Avicii und Al King\nhier in Pop\neurer Abendshow."
+            ],
+            "estimated_report_time": "2025-05-16 21:41:07",
+            "segment_start_char_offset": 12761
+        },
+        {
+            "sentences": [
+                "Der ist aber weg, das ist super.",
+                "Das ist perfekt, weil jetzt genau endlich.",
+                "Das war eine Überbrückungsmeldung, die ist aber dann weggeflogen.",
+                "Das ist auch gut so, weil jetzt ist 21.48 Uhr hier in Pop, eure Abendshow und 38 Sekunden."
+            ],
+            "estimated_report_time": "2025-05-16 21:48:00",
+            "segment_start_char_offset": 14497
+        },
+        {
+            "sentences": [
+                "Alles, was den ganzen Tag gezwickt, genervt oder sonst wie gestresst hat, das schieben wir jetzt für immer beiseite.",
+                "Machen uns völlig andere Gedanken, wechseln die Perspektive, gucken anders auf die Dinge\nund gleich haben die kleinen Problemchen des Tages, die haben so ein Fähnchen drinstecken,\neinfach rausziehen und machen, was da draufsteht, dem Fähnchen.",
+                "Dann sind die weg für immer.",
+                "Wir haben schon philosophiert über Sachen wie zum Beispiel, wenn ein Baum, ein kleiner, mieser Baum,\nsich immer kleine Gemeinheiten für seine Baumkumpels ausdenkt, ist dann dieser kleine Baum aus Streichholz.",
+                "Gestern war das auch schön von Lynn Hegeholz aus Erbstadt.",
+                "Ich bin auch Fan von deinem Namen, Lynn Hegeholz aus Erbstadt."
+            ],
+            "estimated_report_time": "2025-05-16 21:47:41",
+            "segment_start_char_offset": 14819
+        },
+        {
+            "sentences": [
+                "Wir fürchten, ja.",
+                "Das war auch schön gestern, wenn man ein Loch in ein Netz schneidet, hat es dann weniger Löcher als vorher.",
+                "Da platzt einem der Kopf und da kam gestern noch von Neumich die kleine Antwort.",
+                "Hallo Markus, zu den Löchern aus dem Netz schneiden."
+            ],
+            "estimated_report_time": "2025-05-16 21:50:14",
+            "segment_start_char_offset": 15622
+        }
+    ]
+}

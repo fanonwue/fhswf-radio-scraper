@@ -1,0 +1,243 @@
+{
+    "filename": "swr3_20250516_000318_20250516_010317.txt",
+    "recording_start_timestamp_iso": "2025-05-16T00:03:18",
+    "recording_end_timestamp_iso": "2025-05-16T01:03:17",
+    "explicit_time_mentions_in_doc": [],
+    "news_segments": [],
+    "traffic_report_segments": [
+        {
+            "sentences": [
+                "...Basel zwischen Aachen und Appenweiher aufpassen, Vorsicht in beiden Richtungen.",
+                "Die A29 Wilhelmshaven",
+                "Richtung Aalhorner Heide ist zwischen Oldenburg-Aumstede und Kreuz Oldenburg-Ost\nwegen Bauarbeiten noch bis um sechs gesperrt.",
+                "Richtung Osnabrück ist zwischen Bielefeld-Zentrum und Steinhag voraussichtlich bis um vier gesperrt.",
+                "Nach einem Lkw-Brand wird dort die Fahrbahn repariert.",
+                "Die A37 Hannover Richtung Burgdorf ist zwischen Miesburg und Kreuz Hannover-Buchholz\nwegen Bauarbeiten auch heute bis um fünf gesperrt.",
+                "Umleitung ist hier eingerichtet und die A63 Kaiserslautern Richtung Mainz ist zwischen Göllheim und Kirchheim-Bohlanden auch gesperrt.",
+                "Nach einem Rundfall."
+            ],
+            "estimated_report_time": "2025-05-16 00:03:18",
+            "segment_start_char_offset": 0
+        },
+        {
+            "sentences": [
+                "Der ist unterwegs auf der A650 Mannheim-Bad Dürkheim zwischen der B37 und Kreuz Ludwigshafen.",
+                "Ein Falschfahrer gerade auf der A650 Mannheim-Bad Dürkheim zwischen der B37 und Kreuz Ludwigshafen.",
+                "Bitte Vorsicht in beiden Richtungen."
+            ],
+            "estimated_report_time": "2025-05-16 00:42:48",
+            "segment_start_char_offset": 13939
+        },
+        {
+            "sentences": [
+                "Und hier die Übersicht aus unserem Verkehrszentrum\nin der Popnacht\nVorsicht, wir haben immer noch den Falschfahrer\nauf der A650 Mannheim Bad Dürkheim\nzwischen der B37 und Kreuz Ludwigshafen\nBitte weiter äußerst recht"
+            ],
+            "estimated_report_time": "2025-05-16 01:02:40",
+            "segment_start_char_offset": 20948
+        }
+    ],
+    "weather_report_segments": [
+        {
+            "sentences": [
+                "Laut Polizei handelte es sich um einen Unfall\nDas Wetter für Deutschland in der Nacht\nmeist klar im Osten und an den Alpen\nsind vereinzelt Schauer möglich",
+                "Im Süden kann es stellenweise Bodenfrost geben\nHeute im Norden und Westen\nein Mix aus Sonne und Wolken",
+                "Bei böigen Wind werden es maximal 10 bis 22 Grad",
+                "Am Wochenende wechselnd\nmal sonnig, mal bewölkt",
+                "Dazu Höchstwerte von 13 bis 23 Grad"
+            ],
+            "estimated_report_time": "2025-05-16 01:01:16",
+            "segment_start_char_offset": 20458
+        }
+    ],
+    "conversation_segments": [
+        {
+            "sentences": [
+                "Über fünf Stunden lang.",
+                "07-2-1-2011\nSagt gerne mal Bescheid, was so geht bei euch.",
+                "07-2-1-2011\nDas ist unsere Hotline ins Studio."
+            ],
+            "estimated_report_time": "2025-05-16 00:06:25",
+            "segment_start_char_offset": 1103
+        },
+        {
+            "sentences": [
+                "Einfach SWR3\n07-2-1-2011\nmit Daniela Hilfh állte\nDisc daneben",
+                "Sch אną\nGut geht's",
+                "Aber\nWas dabei snapped\n?"
+            ],
+            "estimated_report_time": "2025-05-16 00:07:01",
+            "segment_start_char_offset": 1312
+        },
+        {
+            "sentences": [
+                "One Republic checken hier gleich auch zusammen mit Kaigo ein.",
+                "Die haben dieses Wochenende Jubiläum, diese Woche Jubiläum von einem ihrer großen Hits gefeiert.",
+                "I Ain't Worried hatte tatsächlich dreijähriges Jubiläum."
+            ],
+            "estimated_report_time": "2025-05-16 00:11:25",
+            "segment_start_char_offset": 2867
+        },
+        {
+            "sentences": [
+                "Und ist am 27. Mai 2022 auf einem Soundtrack\nEines sehr, sehr erfolgreichen Kinofilms erschienen",
+                "Die Frage war, um welchen Film geht es denn da?\nHallo, Mina aus Böhringen in Baden-Württemberg\nHallo",
+                "Du bist auf Liebestour kann man sagen",
+                "Du fährst deinen Freunden nach Besuchen heute, gell?",
+                "Ja\nHabt ihr eine Fernbeziehung oder?",
+                "Wir hatten eine\nOkay",
+                "Und wie lange musst du noch fahren, um bei ihm zu sein, um bei ihm zu landen?"
+            ],
+            "estimated_report_time": "2025-05-16 00:21:27",
+            "segment_start_char_offset": 6405
+        },
+        {
+            "sentences": [
+                "Da begleiten wir dich noch ein bisschen\nWas vermutest du denn?",
+                "Um welchen Film geht es denn da?",
+                "Ähm, es geht um Top Gun Maverick",
+                "Da bist du dir sicher?",
+                "Hast du den Film gesehen?",
+                "Ja, den habe ich gesehen\nUnd hast du vielleicht auch noch die Szene zum Lied im Kopf?",
+                "Ja, ich glaube das war die Strandszene, wo sie American Football gespielt haben\nAmerican Football",
+                "Das hat auch jemand angerufen, der meinte, die haben irgendeinen Sport gemacht\nDas war Basketball oder so\nWeiß ich nicht ganz sicher",
+                "Bei dir ist es sehr konkret",
+                "Und das ist auch gut so, Mina\nDenn damit gibt es unser erstes Pop-Nacht-Ruddy für heute\nYippie-ayay\nJa cool\nSchicken wir dir auf jeden Fall nach Böhringen\nGrüß uns deinen Freund",
+                "Und habt noch ein schönes Wochenende\nWerde ich machen\nVielen lieben",
+                "Dank\nGute Weiterfahrt\nCiao\nopage",
+                "Mach Time\nAber"
+            ],
+            "estimated_report_time": "2025-05-16 00:22:44",
+            "segment_start_char_offset": 6862
+        },
+        {
+            "sentences": [
+                "Damit sind wir schon durch.",
+                "Wir wünschen euch eine gute Fahrt mit der Popnacht.",
+                "Mein Name ist Daniela Hilb."
+            ],
+            "estimated_report_time": "2025-05-16 00:33:10",
+            "segment_start_char_offset": 10540
+        },
+        {
+            "sentences": [
+                "Der bringt eine waschechte Bromance mit sich.",
+                "Na, hört ihr raus, mit wem er Bloodline aufgenommen hat?",
+                "Das ist ganz eindeutig die sehr prägnante Stimme von seinem gerade ebenfalls sehr angesagten\nUS-Kollegen Jelly Roll.",
+                "Bloodline haben die beiden auch präsentiert auf dem Stagecoach-Festival kürzlich.",
+                "Und danach hat Alex Warren, Jelly Roll, eine wirklich süße Instagram-Liebeserklärung gemacht,\nmuss man sagen.",
+                "Da hat er unter ein gemeinsames Bild geschrieben.",
+                "Ich wollte mich bei Jelly bedanken.",
+                "Was für eine wunderbare Seele.",
+                "Es war wirklich ein Segen, dass ich mit dir auf dieser Bühne stehen durfte.",
+                "Es ist verrückt, dich meinen Freund zu nennen.",
+                "Diese letzten paar Wochen waren wirklich lebensverändernd und du warst so gut zu mir.",
+                "Ich liebe dich, Jelly."
+            ],
+            "estimated_report_time": "2025-05-16 00:38:07",
+            "segment_start_char_offset": 12286
+        },
+        {
+            "sentences": [
+                "Und da gingen bei beiden, das war ganz süß zu sehen, hier bei Instagram haben sie es hochgeladen,\ndas Video dazu, die Daumen immer noch so volle Kanne nach oben.",
+                "Die sind wirklich voll happy mit diesem Endergebnis von Gleit."
+            ],
+            "estimated_report_time": "2025-05-16 00:46:24",
+            "segment_start_char_offset": 15208
+        },
+        {
+            "sentences": [
+                "Unbeschwertheit, Spaß und ganz, ganz viel Sommer.",
+                "Ja.",
+                "Ich würde sagen, dass das eine der größten Dinge in der Welt ist,\ndas Gefühl der lightenheit."
+            ],
+            "estimated_report_time": "2025-05-16 00:47:16",
+            "segment_start_char_offset": 15513
+        },
+        {
+            "sentences": [
+                "Ja.",
+                "Und es ist dieses, wie, carefree, fun, es ist Sommer-y.",
+                "Es ist sehr chill.",
+                "Es macht mich, ja, es macht mich, Sommer."
+            ],
+            "estimated_report_time": "2025-05-16 00:47:50",
+            "segment_start_char_offset": 15716
+        },
+        {
+            "sentences": [
+                "Mit Gleit von Nikit und Portugal the Man.",
+                "Jetzt hier bei uns auf unserer Pop-Nacht-Playlist."
+            ],
+            "estimated_report_time": "2025-05-16 00:48:40",
+            "segment_start_char_offset": 16010
+        },
+        {
+            "sentences": [
+                "Denn es reißt sich besser mit leichtem Gepäck",
+                "Mit leichtem Gepäck\nNicht nur dein kleiner Hofstadt aus Plastik auch\nDie Armee aus Schrott und Neurosen auf deiner Seele wächst",
+                "Immer mehr hängt, immer öfter blutsaugend an deiner Kehle",
+                "Wie geil die Vorstellung wär das, alles loszuwerden\nAlles auf einen Haufen mit Brennpass und Zunge"
+            ],
+            "estimated_report_time": "2025-05-16 00:51:12",
+            "segment_start_char_offset": 16904
+        },
+        {
+            "sentences": [
+                "Und eines Tages fällt dir auf\nDass du 99% davon nicht brauchst",
+                "Du nimmst all den Ballast und schmeißt ihn weg",
+                "Denn es reißt sich besser mit leichtem Gepäck",
+                "Mit leichtem Gepäck",
+                "Ab heute",
+                "Nur noch die richtigen Dinge",
+                "Ab heute",
+                "Nur noch die richtigen Dinge",
+                "Ab heute",
+                "Nur noch die richtigen Dinge",
+                "Ab heute\nNur noch leichtes Gepäck",
+                "Denn eines Tages fällt dir auf\nEs ist wenig, was du wirklich brauchst",
+                "Also nimmst du den Ballast und schmeißt ihn weg",
+                "Denn es lebt sich besser",
+                "So viel besser",
+                "Mit leichtem Gepäck\nAll der Zeit von gestern\nAll die Namen\nAll die Rechnung",
+                "Die viel zu lange hoffen von Lagen",
+                "Lass sie los",
+                "Dann zieh einfach weg",
+                "Denn es reißt sich besser",
+                "Mit leichtem Gepäck\nSWR 3"
+            ],
+            "estimated_report_time": "2025-05-16 00:52:21",
+            "segment_start_char_offset": 17308
+        },
+        {
+            "sentences": [
+                "Auch dessen US-Amtskollege Rubio\nnimmt an den Verhandlungen teil",
+                "Er erklärte im Vorfeld aber nur wenig Hoffnung\nauf einen Durchbruch zu haben\nBauministerin Hubertz will den Wohnungsbau beschleunigen",
+                "Das hat sie in ihrer Regierungserklärung\nim Bundestag gesagt\nSie wolle in den ersten 100 Tagen\neinen Gesetzentwurf für einen Zitat\nWohnungsbauturbo vorlegen",
+                "Aus Berlin berichtet Benjamin Großkopf",
+                "Die neue Bauministerin von der SPD\nwill nach eigenen Worten die Bagger wieder rollen lassen",
+                "Es geht darum\nplanungsrechtliche Hürden zu senken\nGenehmigungen zu beschleunigen",
+                "Die Ministerin sagte zu\nsich an ihren weitreichenden Versprechen messen zu lassen\nLinke und Grüne erinnerten daran\ndass schon die Vorgängerregierung\ndie Losung",
+                "Bauen, Bauen, Bauen ausgegeben hatte\nDas Problem Wohnungsmangel aber eher größer\nals kleiner geworden ist",
+                "Die AfD kritisierte unter anderem\nzu hohe Umweltauflagen\nund die Grundsteuer\ndie Wohnen erst so teuer machten\nDie deutsche Handball-Nationalmannschaft\ntrifft bei der Europameisterschaft\nim nächsten Jahr auf Spanien, Serbien und Österreich",
+                "Das hat die Gruppenauslosung am Abend\nin Dänemark ergeben\nARD-Sportreporter Thomas Kot",
+                "Nur die ersten beiden Teams der Gruppe\nziehen in die Hauptrunde",
+                "ein\nDort würde Deutschland weiter in Herning spielen\naber auf harte Brocken treffen",
+                "Neben Weltmeister und Olympiasieger Dänemark\nauf Titelverteidiger Frankreich\nden WM 4. Portugal oder Norwegen\nNur die beiden besten Mannschaften\nerreichen das Halbfinale\nDie EM Mitte Januar nächsten Jahres\nfindet neben Dänemark\nauch in Schweden und Norwegen statt",
+                "Der ehemalige Fußball-Bundestrainer Hansi Flick\nhat mit seinem neuen Verein\ndem FC Barcelona\nvorzeitig die spanische Meisterschaft gewonnen",
+                "Die Katarinen siegten am Abend\nim Stadtderby gegen Espanyol mit 2 zu 0\nBarca liegt damit zwei Spieltage vor Saisonende\nuneinholbar an der Tabellenspitze\nÜberschattet wurde die Partie\nvon einem Vorfall kurz vor dem Anpfiff",
+                "Ein Auto war in der Nähe des Stadions\nin eine Menschenmenge gefahren",
+                "Dabei wurden 15 Personen verletzt"
+            ],
+            "estimated_report_time": "2025-05-16 00:55:30",
+            "segment_start_char_offset": 18421
+        },
+        {
+            "sentences": [
+                "Und noch die Zeit",
+                "Es ist gleich 1 Uhr 3"
+            ],
+            "estimated_report_time": "2025-05-16 01:02:33",
+            "segment_start_char_offset": 20908
+        }
+    ]
+}
