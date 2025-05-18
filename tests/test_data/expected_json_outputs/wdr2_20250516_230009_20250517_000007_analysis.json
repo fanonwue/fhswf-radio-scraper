@@ -1,0 +1,305 @@
+{
+    "filename": "wdr2_20250516_230009_20250517_000007.txt",
+    "recording_start_timestamp_iso": "2025-05-16T23:00:09",
+    "recording_end_timestamp_iso": "2025-05-17T00:00:07",
+    "explicit_time_mentions_in_doc": [
+        [
+            3159,
+            "2025-05-16 23:03:00"
+        ],
+        [
+            14475,
+            "2025-05-16 23:30:00"
+        ]
+    ],
+    "news_segments": [
+        {
+            "sentences": [
+                "Es gibt Kritik an einer Entscheidung des belgischen Parlaments.",
+                "Das hat den eigentlich schon beschlossenen Atomausstieg des Landes wieder rückgängig gemacht.",
+                "In der Grenzregion zu Belgien, in Aachen, sehen das die Menschen mit Sorge.",
+                "Denn einige Atommeiler sind sehr störanfällig.",
+                "Einfach schlecht.",
+                "Ich finde, da muss gegenangegangen werden.",
+                "Ich finde, das ist eine absolute Katastrophe auf jeden Fall.",
+                "Ja, mir fehlen tatsächlich die Worte dafür.",
+                "Bei uns wird im Moment der ganze Hürtgenwald mit Windrädern zugeklastert.",
+                "Das finde ich auch nicht schön.",
+                "Aber es ist noch lange nicht so gefährlich wie Atomkraftwerke.",
+                "Die Laufzeitverlängerung ist zwar nun politisch beschlossen.",
+                "Unklar ist aber, ob sie auch kommt.",
+                "Denn der Betreiber der Meiler erklärte, Atomkraft sei nicht mehr Teil der Firmenstrategie.",
+                "Die Ukraine und Russland haben ihre direkten Verhandlungen über einen möglichen Frieden beendet.",
+                "Unter anderem haben sie einen Austausch von jeweils 1000 Gefangenen vereinbart.",
+                "Die Gespräche in der Türkei waren die ersten direkten zwischen den beiden Ländern seit drei Jahren.",
+                "Wann und wie die Gespräche weitergehen, ist noch unklar.",
+                "In Essen ist ein 17-Jähriger zu dreieinhalb Jahren Jugendhaft verurteilt worden.",
+                "Er hatte vergangenes Jahr einen auf der Straße lebenden Mann verprügelt.",
+                "Das Opfer wurde so stark verletzt, dass es sich seitdem kaum noch bewegen kann.",
+                "Laut Gericht hatte der 17-Jährige den Mann in Essen ohne Grund angegriffen,\nals dieser nachts vor einem Supermarkt auf einer Matratze lag.",
+                "Der Streamingdienst Netflix muss 200 Euro an einen seiner Nutzer zurückzahlen.",
+                "Das Landgericht Köln hat mehrere Preiserhöhungen bei Netflix seit 2017 für unwirksam erklärt.",
+                "Nutzerinnen und Nutzer finden im Netz einen Musterschreiben,\nmit dem auch sie versuchen können, Geld von Netflix zurückzubekommen.",
+                "Mögliche Auswirkungen des Klimawandels beschäftigen auch die Städte und Gemeinden im Münsterland.",
+                "Erste Kommunen haben Maßnahmen zum Hitzeschutz auf den Weg gebracht.",
+                "Paula Göbel für WDR aktuell.",
+                "Münster ist der Vorreiter.",
+                "Die Stadt hat einen umfangreichen sogenannten Hitzeaktionsplan mit zwölf konkreten Maßnahmen aufgestellt.",
+                "Das geht von Trinkwasserspendern im öffentlichen Raum bis hin zu mehr Begrünung öffentlicher Gebäude.",
+                "Sowas haben die meisten Städte im Münsterland noch nicht.",
+                "Dafür gibt es aber hier und da ähnliche Maßnahmen.",
+                "Rheine zum Beispiel bindet mit einem coolen Stadtplan Bürger mit ein,\nin dem sie Hitze-Hotspots und kühlende Orte markieren können.",
+                "Ahlen und Bocholt fördern Dachbegrünungen.",
+                "Und die Stadt Warendorf gibt auf ihrer Homepage Tipps,\nwie ich mich bei und gegen Hitze am besten schützen kann."
+            ],
+            "estimated_report_time": "2025-05-16 23:00:09",
+            "segment_start_char_offset": 0
+        }
+    ],
+    "traffic_report_segments": [
+        {
+            "sentences": [
+                "Das Neueste aus dem Verkehrszentrum.",
+                "Damit ihr gut und sicher ankommt.",
+                "Vorsicht erstmal auf der A31.\nMeppen Richtung leer.",
+                "Immer noch zwischen Larten und Dörpen.",
+                "Vorsicht.",
+                "Da ist eine ungesicherte Unfallstelle.",
+                "Die A1 Köln Richtung Dortmund ist zwischen Kreuz Leverkusen West und Kreuz Leverkusen wegen Bauarbeiten.",
+                "Bis Montag früh gesperrt.",
+                "A5 Kassel Richtung Frankfurt.",
+                "Zwischen Gambacher Kreuz und Bad Nauheim.\nPardon.\nBauarbeiten.",
+                "Vier Kilometer Stau um diese Zeit.",
+                "Außerdem ist die Anschlussstelle Bad Nauheim gesperrt.",
+                "Die A17 Prag Dresden ist zwischen Dresden Südvorstadt und Dresden Gorbitz wegen Wartungsarbeiten im Tunnel.",
+                "20 Uhr in beiden Richtungen gesperrt.",
+                "A24 Berlin Richtung Hamburg.\nIst zwischen Sukko und Parchim die A24.\nIch kaufe hier ein D.",
+                "Die A24 Berlin Richtung Hamburg.",
+                "Ist zwischen Sukko und Parchim nach Lkw-Unfall gesperrt.",
+                "Die A42 Kamp-Lindfort Dortmund ist zwischen Herne-Krange und Herne-Baukau in beiden Richtungen auch bis Montag früh gesperrt.",
+                "Und auch die A45 Gießen Richtung Hagen ist zwischen Lüdenscheid Nord und Hagen-Süd wegen Bauarbeiten bis Montag früh gesperrt.",
+                "Vorsicht auf der A44 gerade Dortmund-Kassel zwischen Warburg und Breuner.",
+                "Da befindet sich eine Person auf der Fahrbahn."
+            ],
+            "estimated_report_time": "2025-05-16 23:07:11",
+            "segment_start_char_offset": 3170
+        },
+        {
+            "sentences": [
+                "Hier das Neueste aus dem Verkehrszentrum.",
+                "Vorsicht bitte auf der A2.",
+                "Erstmal Hannover Richtung Berlin.",
+                "Zwischen Eilsleben und Bornstedt.",
+                "Da steht ein defekter Pkw.",
+                "Die A1 Köln Richtung Dortmund ist zwischen\nKreuz-Leverkusen-Westen und Kreuz-Leverkusen\nwegen Bauarbeiten bis Montagfrüh gesperrt.",
+                "Die A17 Prag Dresden ist zwischen Dresden-Südvollstadt\nund Dresden-Gorbitz wegen Wartungsarbeiten im Tunnel\nauch bis Sonntag ca. 20 Uhr in beiden Richtungen gesperrt.",
+                "Die A24 Berlin Richtung Hamburg ist zwischen Soko und Parchim\nnach Lkw-Unfall auch gesperrt.",
+                "Die A42 Kamp-Lindfort Dortmund ist zwischen Herne-Krange\nund Herne-Baukau in beiden Richtungen auch bis Montagfrüh gesperrt.",
+                "Und auch die A45 Gießen Richtung Hagen\nist zwischen Lüdenscheid-Nord und Hagen-Süd\nwegen Bauarbeiten bis Montagfrüh gesperrt.",
+                "Die A52 Düsseldorf-Essen ist zwischen Essen-Harzopf\nund Essen-Rüttenscheid auch wegen Bauarbeiten\nin beiden Richtungen gesperrt.",
+                "Die A73 noch, Nürnberg-Feucht ist zwischen Nürnberghafen,\nSüd- und Feucht wegen Brückenarbeiten auch gesperrt\nbis Montagfrüh um 5."
+            ],
+            "estimated_report_time": "2025-05-16 23:32:23",
+            "segment_start_char_offset": 14520
+        },
+        {
+            "sentences": [
+                "Hier kommt noch was aus dem Verkehrszentrum\nVorsicht auf der A4\nBeziehungsweise A3\nUlpe Oberhausen",
+                "Zwischen Köln-Meerheim"
+            ],
+            "estimated_report_time": "2025-05-16 23:50:56",
+            "segment_start_char_offset": 22869
+        }
+    ],
+    "weather_report_segments": [],
+    "conversation_segments": [
+        {
+            "sentences": [
+                "Es gibt Kritik an einer Entscheidung des belgischen Parlaments.",
+                "Das hat den eigentlich schon beschlossenen Atomausstieg des Landes wieder rückgängig gemacht.",
+                "In der Grenzregion zu Belgien, in Aachen, sehen das die Menschen mit Sorge.",
+                "Denn einige Atommeiler sind sehr störanfällig.",
+                "Einfach schlecht.",
+                "Ich finde, da muss gegenangegangen werden.",
+                "Ich finde, das ist eine absolute Katastrophe auf jeden Fall.",
+                "Ja, mir fehlen tatsächlich die Worte dafür."
+            ],
+            "estimated_report_time": "2025-05-16 23:00:09",
+            "segment_start_char_offset": 0
+        },
+        {
+            "sentences": [
+                "Das finde ich auch nicht schön.",
+                "Aber es ist noch lange nicht so gefährlich wie Atomkraftwerke.",
+                "Die Laufzeitverlängerung ist zwar nun politisch beschlossen."
+            ],
+            "estimated_report_time": "2025-05-16 23:01:18",
+            "segment_start_char_offset": 521
+        },
+        {
+            "sentences": [
+                "Das Opfer wurde so stark verletzt, dass es sich seitdem kaum noch bewegen kann.",
+                "Laut Gericht hatte der 17-Jährige den Mann in Essen ohne Grund angegriffen,\nals dieser nachts vor einem Supermarkt auf einer Matratze lag.",
+                "Der Streamingdienst Netflix muss 200 Euro an einen seiner Nutzer zurückzahlen.",
+                "Das Landgericht Köln hat mehrere Preiserhöhungen bei Netflix seit 2017 für unwirksam erklärt.",
+                "Nutzerinnen und Nutzer finden im Netz einen Musterschreiben,\nmit dem auch sie versuchen können, Geld von Netflix zurückzubekommen.",
+                "Mögliche Auswirkungen des Klimawandels beschäftigen auch die Städte und Gemeinden im Münsterland.",
+                "Erste Kommunen haben Maßnahmen zum Hitzeschutz auf den Weg gebracht.",
+                "Paula Göbel für WDR aktuell.",
+                "Münster ist der Vorreiter.",
+                "Die Stadt hat einen umfangreichen sogenannten Hitzeaktionsplan mit zwölf konkreten Maßnahmen aufgestellt.",
+                "Das geht von Trinkwasserspendern im öffentlichen Raum bis hin zu mehr Begrünung öffentlicher Gebäude.",
+                "Sowas haben die meisten Städte im Münsterland noch nicht.",
+                "Dafür gibt es aber hier und da ähnliche Maßnahmen.",
+                "Rheine zum Beispiel bindet mit einem coolen Stadtplan Bürger mit ein,\nin dem sie Hitze-Hotspots und kühlende Orte markieren können.",
+                "Ahlen und Bocholt fördern Dachbegrünungen.",
+                "Und die Stadt Warendorf gibt auf ihrer Homepage Tipps,\nwie ich mich bei und gegen Hitze am besten schützen kann."
+            ],
+            "estimated_report_time": "2025-05-16 23:03:01",
+            "segment_start_char_offset": 1292
+        },
+        {
+            "sentences": [
+                "Damit ihr gut und sicher ankommt."
+            ],
+            "estimated_report_time": "2025-05-16 23:07:16",
+            "segment_start_char_offset": 3207
+        },
+        {
+            "sentences": [
+                "Das ergänzt sich hier."
+            ],
+            "estimated_report_time": "2025-05-16 23:08:59",
+            "segment_start_char_offset": 3982
+        },
+        {
+            "sentences": [
+                "Fahrt vorsichtig und kommt bitte gut und bald an."
+            ],
+            "estimated_report_time": "2025-05-16 23:10:02",
+            "segment_start_char_offset": 4452
+        },
+        {
+            "sentences": [
+                "But I won't go\nNo, I won't go down\nYeah, yeah",
+                "Es hat doch nicht so laut, über diese Stromgitarren, arg, arg.",
+                "Three doors down in der Abendshow.",
+                "Vielleicht geht es ja Menschen gerade gar nicht gut.",
+                "Die meisten Menschen verarbeiten, hallo, hier ist Pop, eure Abendshow.",
+                "Die meisten Menschen verarbeiten zum Beispiel ihre Beziehungstraumata,\nTraumaten, Traum, Traume, ja ganz alleine, für sich.",
+                "Aber es gibt halt auch Menschen, die verarbeiten das auf Platz 1 der Charts.",
+                "Hier, Olivia Rodrigo ist so eine."
+            ],
+            "estimated_report_time": "2025-05-16 23:18:00",
+            "segment_start_char_offset": 8045
+        },
+        {
+            "sentences": [
+                "Das war Drivers License vor 200 Jahren.",
+                "Und da gibt es ja diese ordentliche Klatschgeschichte eigentlich,\nSascha Kaup aus dem Pop, die Abendshow, Klatsch, Spezialteam."
+            ],
+            "estimated_report_time": "2025-05-16 23:19:18",
+            "segment_start_char_offset": 8627
+        },
+        {
+            "sentences": [
+                "Sehr gut, Heurismus, mehr davon.\nLieben wir."
+            ],
+            "estimated_report_time": "2025-05-16 23:20:03",
+            "segment_start_char_offset": 8966
+        },
+        {
+            "sentences": [
+                "Und da kommt diese Zeile vor.",
+                "Ja.",
+                "You're probably with that blonde girl.",
+                "Ja.",
+                "You're probably with that blonde girl.",
+                "Du bist sicher gerade mit diesem blonden Mädchen unterwegs.",
+                "Und dieses blonde Mädchen kennen wir alle.",
+                "Es soll nämlich angeblich Sabrina Carpenter sein.",
+                "Ja.",
+                "Das ist die mit Espresso.",
+                "Jawohl.",
+                "Ja.",
+                "So."
+            ],
+            "estimated_report_time": "2025-05-16 23:20:23",
+            "segment_start_char_offset": 9116
+        },
+        {
+            "sentences": [
+                "Der nannte sich Skin.",
+                "Ja.",
+                "Und das ist anscheinend so eine Antwort gewesen auf diese Zeile von Rodrigo.",
+                "Da singt sie nämlich dann\nMaybe you didn't mean it.",
+                "Blonde was the only rhyme.",
+                "Also vielleicht hast du alles nicht so gemeint."
+            ],
+            "estimated_report_time": "2025-05-16 23:21:21",
+            "segment_start_char_offset": 9551
+        },
+        {
+            "sentences": [
+                "Blonde steht aber doch gar nicht am Ende der Zeit.",
+                "Das muss ich doch gar nicht.",
+                "Ja, ja.",
+                "Markus, jetzt kommen wir bitte nicht mit Logik hier.",
+                "Darum geht es hier überhaupt gar nicht.",
+                "Entschuldigung.",
+                "So, jedenfalls haben Olivia und Sabrina offenbar eine Sache gemeinsam.",
+                "Den Ex.",
+                "Genau.",
+                "Und das soll US-Schauspieler Joshua Bassett sein.",
+                "Und der hat übrigens, kleiner Funfact noch zum Schluss, auch noch ein Lied rausgebracht kurz danach.",
+                "Und das heißt Lie, Lie, Lie.",
+                "Also alles Lügen.",
+                "Alles Lügen."
+            ],
+            "estimated_report_time": "2025-05-16 23:22:16",
+            "segment_start_char_offset": 9967
+        },
+        {
+            "sentences": [
+                "Es ist 23.30 Uhr, damit ihr gut und sicher ankommt."
+            ],
+            "estimated_report_time": "2025-05-16 23:30:00",
+            "segment_start_char_offset": 14468
+        },
+        {
+            "sentences": [
+                "Und das war's.\nKommt gut und sicher und bitte bald an."
+            ],
+            "estimated_report_time": "2025-05-16 23:34:45",
+            "segment_start_char_offset": 15586
+        },
+        {
+            "sentences": [
+                "2020\nWenn es echt ist\nEgal wo wir stehen, wohin wir gehen",
+                "In diesem Moment wird sich die Welt nicht drehen\nWenn er echt ist\nIch erwart nicht viel von diesem Moment\nIch weiß, dass er perfekt ist"
+            ],
+            "estimated_report_time": "2025-05-16 23:36:40",
+            "segment_start_char_offset": 16445
+        },
+        {
+            "sentences": [
+                "Ich ruf ihn so an, ich meinte, hey, es tut mir mega leid, hier ist so ne Fledermaus drin,\nich krieg die einfach nicht raus.",
+                "Ich hab alles probiert, Kaffee, Tee.",
+                "Wie geht's?",
+                "Du musst vorbeikommen.",
+                "Und der so, ähm, haben sie auch das Fenster aufgemacht?"
+            ],
+            "estimated_report_time": "2025-05-16 23:43:08",
+            "segment_start_char_offset": 19362
+        },
+        {
+            "sentences": [
+                "Guten Abend.",
+                "WDR aktuell",
+                "WDR aktuell"
+            ],
+            "estimated_report_time": "2025-05-17 00:00:02",
+            "segment_start_char_offset": 26968
+        }
+    ]
+}

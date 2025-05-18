@@ -13,8 +13,11 @@ class NewsSegmentExtractor(AbstractSegmentExtractor):
             # Wetter
             "das wetter für deutschland", "wetterbericht", "wetteraussichten", "wettervorhersage",
             "und nun zum wetter", "kommen wir zum wetter", "ein blick auf das wetter",
+            "das wetter in",
             # Verkehr
-            "verkehrszentrum", "verkehrsmeldung", "verkehrsmeldungen", "achtung", "vorsicht"
+            "verkehrszentrum", "verkehrsmeldung", "verkehrsmeldungen", "achtung", "vorsicht",
+            # WDR2
+            "das war wdr aktuell.",  "das war wdr"
         ]
 
     def get_name(self) -> str:

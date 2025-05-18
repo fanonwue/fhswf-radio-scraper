@@ -124,6 +124,27 @@
         },
         {
             "sentences": [
+                "Ziel der Flashmobs war es,\ndie Bekanntheit der Posaunenarbeit\nder evangelischen Landeskirche in Baden zu stärken."
+            ],
+            "estimated_report_time": "2025-05-16 21:07:12",
+            "segment_start_char_offset": 2115
+        },
+        {
+            "sentences": [
+                "Die Zeit, es ist 21.03 Uhr."
+            ],
+            "estimated_report_time": "2025-05-16 21:03:00",
+            "segment_start_char_offset": 2562
+        },
+        {
+            "sentences": [
+                "Hier so eine Viertelstunde.\nKommt gut und sicher und bald an."
+            ],
+            "estimated_report_time": "2025-05-16 21:11:57",
+            "segment_start_char_offset": 3605
+        },
+        {
+            "sentences": [
                 "Eis auf das Herz, Eis auf das Herz des ZDF, 2020\n�� trachtest du, prescribe\nund ich habe ein Pens Jumpman des ZDF, 2020\nhalbes Erlebnis.",
                 "Das sind diese kleinen\nGeschichten.",
                 "Mir ist erst vor kurzem\nwieder ist mir das passiert.",
@@ -175,6 +196,13 @@
             ],
             "estimated_report_time": "2025-05-16 21:23:06",
             "segment_start_char_offset": 7107
+        },
+        {
+            "sentences": [
+                "Hier ist Pop."
+            ],
+            "estimated_report_time": "2025-05-16 21:36:28",
+            "segment_start_char_offset": 11298
         },
         {
             "sentences": [

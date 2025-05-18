@@ -52,6 +52,13 @@
     "conversation_segments": [
         {
             "sentences": [
+                "Wer ist denn von euch heute wo dabei?"
+            ],
+            "estimated_report_time": "2025-05-16 00:05:51",
+            "segment_start_char_offset": 900
+        },
+        {
+            "sentences": [
                 "Über fünf Stunden lang.",
                 "07-2-1-2011\nSagt gerne mal Bescheid, was so geht bei euch.",
                 "07-2-1-2011\nDas ist unsere Hotline ins Studio."
@@ -76,6 +83,13 @@
             ],
             "estimated_report_time": "2025-05-16 00:11:25",
             "segment_start_char_offset": 2867
+        },
+        {
+            "sentences": [
+                "War 2022 ein Top-20-Hit in ganz vielen europäischen Charts und auch auf dem Soundtrack eines sehr erfolgreichen Blockbusters zu finden."
+            ],
+            "estimated_report_time": "2025-05-16 00:12:17",
+            "segment_start_char_offset": 3171
         },
         {
             "sentences": [
@@ -120,6 +134,13 @@
         },
         {
             "sentences": [
+                "2020\nDrake blinkt sich hier\ndurch die Nacht mit uns\nuns Hotline Bling."
+            ],
+            "estimated_report_time": "2025-05-16 00:37:29",
+            "segment_start_char_offset": 12062
+        },
+        {
+            "sentences": [
                 "Der bringt eine waschechte Bromance mit sich.",
                 "Na, hört ihr raus, mit wem er Bloodline aufgenommen hat?",
                 "Das ist ganz eindeutig die sehr prägnante Stimme von seinem gerade ebenfalls sehr angesagten\nUS-Kollegen Jelly Roll.",
@@ -135,6 +156,20 @@
             ],
             "estimated_report_time": "2025-05-16 00:38:07",
             "segment_start_char_offset": 12286
+        },
+        {
+            "sentences": [
+                "Bis dahin gönnen wir uns noch Ordinary von Alex Warren."
+            ],
+            "estimated_report_time": "2025-05-16 00:40:23",
+            "segment_start_char_offset": 13088
+        },
+        {
+            "sentences": [
+                "Bitte äußerst rechtsfahren nicht überholen."
+            ],
+            "estimated_report_time": "2025-05-16 00:44:28",
+            "segment_start_char_offset": 14530
         },
         {
             "sentences": [
@@ -230,6 +265,13 @@
             ],
             "estimated_report_time": "2025-05-16 00:55:30",
             "segment_start_char_offset": 18421
+        },
+        {
+            "sentences": [
+                "Im Osten regnet es ab und an"
+            ],
+            "estimated_report_time": "2025-05-16 01:02:05",
+            "segment_start_char_offset": 20746
         },
         {
             "sentences": [

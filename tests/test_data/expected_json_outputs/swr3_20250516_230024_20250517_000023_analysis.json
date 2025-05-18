@@ -150,6 +150,51 @@
         },
         {
             "sentences": [
+                "Die Zeit ist es 23.03 Uhr."
+            ],
+            "estimated_report_time": "2025-05-16 23:03:00",
+            "segment_start_char_offset": 2671
+        },
+        {
+            "sentences": [
+                "Damit ihr gut und sicher ankommt."
+            ],
+            "estimated_report_time": "2025-05-16 23:07:05",
+            "segment_start_char_offset": 2735
+        },
+        {
+            "sentences": [
+                "Pardon?",
+                "Bauarbeiten."
+            ],
+            "estimated_report_time": "2025-05-16 23:08:00",
+            "segment_start_char_offset": 3108
+        },
+        {
+            "sentences": [
+                "Das ergänzt sich hier."
+            ],
+            "estimated_report_time": "2025-05-16 23:08:57",
+            "segment_start_char_offset": 3500
+        },
+        {
+            "sentences": [
+                "Fahrt vorsichtig und kommt bitte gut und bald an."
+            ],
+            "estimated_report_time": "2025-05-16 23:10:05",
+            "segment_start_char_offset": 3965
+        },
+        {
+            "sentences": [
+                "Mit Markus Barsch.",
+                "Hi.",
+                "Schön, dass ihr da seid."
+            ],
+            "estimated_report_time": "2025-05-16 23:10:28",
+            "segment_start_char_offset": 4117
+        },
+        {
+            "sentences": [
                 "Bis zum nächsten Mal.",
                 "Bis zum nächsten Mal.",
                 "Bis zum nächsten Mal.",

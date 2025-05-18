@@ -33,7 +33,7 @@ CONVERSATIONAL_CUES_LIST = [
     "schön, dass sie da sind", "willkommen bei", "thema heute", "sprechen wir über",
     "was meinst du", "wie geht's", "meine damen und herren", "liebe hörerinnen und hörer",
     "witzig", "lustig", "spannend", "interessant", "unglaublich", "wahnsinn",
-    "super", "klasse", "toll", "echt"
+    "super", "klasse", "toll", "echt", "hier ist", "hier spricht"
 ]
 
 class ConversationSegmentExtractor(AbstractSegmentExtractor):
@@ -42,8 +42,8 @@ class ConversationSegmentExtractor(AbstractSegmentExtractor):
     Verkehrs- und Songtexte heraus.
     """
     MIN_UNIQUE_SENTENCE_RATIO = 0.5 
-    MIN_CONVERSATION_SENTENCES = 2
-    MIN_CONVERSATION_WORDS = 10
+    MIN_CONVERSATION_SENTENCES = 1
+    MIN_CONVERSATION_WORDS = 1
 
     def __init__(self, nlp_vocab=None):
         self.nlp_vocab = nlp_vocab

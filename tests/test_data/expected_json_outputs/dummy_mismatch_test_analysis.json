@@ -1,0 +1,15 @@
+{
+    "completely_different_root_key": "some_value",
+    "news_segments": [
+        {
+            "sentences": [
+                "Dies ist eine völlig andere Nachricht.",
+                "Sie hat nichts mit dem Original zu tun."
+            ],
+            "estimated_report_time": "2000-01-01 00:00:00",
+            "some_unexpected_key_in_news": true
+        }
+    ],
+    "traffic_report_segments": "Dies sollte eine Liste sein, ist aber ein String",
+    "additional_unexpected_top_level_array": [1, 2, 3, 4, 5]
+}

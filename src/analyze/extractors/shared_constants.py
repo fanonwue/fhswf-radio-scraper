@@ -4,6 +4,7 @@ IGNORE_PHRASES_REGEX_LIST = [
     re.compile(r"Untertitelung des ZDF, \d{4}", re.IGNORECASE),
     re.compile(r"^\s*(werbung|jingle)\s*$", re.IGNORECASE),
     re.compile(r"^\s*SWR3\s*$", re.IGNORECASE),
+    re.compile(r"^\s*WDR 2\s*$", re.IGNORECASE),
     re.compile(r"^\s*Musik\s*$", re.IGNORECASE)
 ]
 

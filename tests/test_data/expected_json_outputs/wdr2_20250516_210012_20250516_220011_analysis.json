@@ -1,0 +1,297 @@
+{
+    "filename": "wdr2_20250516_210012_20250516_220011.txt",
+    "recording_start_timestamp_iso": "2025-05-16T21:00:12",
+    "recording_end_timestamp_iso": "2025-05-16T22:00:11",
+    "explicit_time_mentions_in_doc": [
+        [
+            2932,
+            "2025-05-16 21:03:00"
+        ]
+    ],
+    "news_segments": [
+        {
+            "sentences": [
+                "Gespräche über einen möglichen Frieden beendet.",
+                "Das Treffen in der Türkei war das erste seit etwa drei Jahren.",
+                "Beide Seiten einigten sich auf einen großen Austausch von Gefangenen.",
+                "Ansonsten gab es keine Ergebnisse.",
+                "Die Bewertungen des Treffens gehen dennoch weit auseinander,\nerklärt Katharina Willinger, WDR Istanbul.",
+                "Die Russen, die haben sich sehr zufrieden gezeigt.",
+                "Ganz anders die Ukrainer.",
+                "Sie sprechen ja von inakzeptablen Forderungen.",
+                "Wie schauen die aus?",
+                "Beispielsweise fordern die Russen, dass die Ukrainer fünf Gebiete abtreten müssen an Russland,\ndie sie besetzt halten, dass sie ihre Armee schwächen müssen.",
+                "Das sind also die gleichen Forderungen, die wir vor drei Jahren hier in Istanbul schon mal gesehen haben.",
+                "Und damals sind die Verhandlungen ja gescheitert.",
+                "Belgien setzt weiter auf Atomkraftwerke.",
+                "Das Parlament hat dafür gestimmt, den Atomausstieg rückgängig zu machen.",
+                "Die rechte Regierung will sogar neue Reaktoren bauen.",
+                "NRW-Umweltminister Krischer mahnte an, die Sicherheitsstandards einzuhalten.",
+                "Hier dürfe es keine Abstriche geben.",
+                "In Belgien gibt es derzeit zwei Kernkraftwerke mit sieben Reaktoren.",
+                "Drei wurden allerdings vom Netz genommen.",
+                "Der Chefankläger am internationalen Strafgerichtshof",
+                "Kahn lässt sein Amt vorerst ruhen.",
+                "Eine Mitarbeiterin wirft ihm sexuelle Übergriffe vor.",
+                "Er selbst bestreitet das.",
+                "Der Fall wird jetzt von einer UNO-Kommission untersucht.",
+                "Der 55-jährige Brite ist seit 2021 im Amt und erwirkte unter anderem Haftbefehle gegen Netanyahu und Putin wegen Kriegsverbrechen.",
+                "Beim Speerwerfen hat der deutsche Athlet Julian Weber für eine Sensation gesorgt.",
+                "Bei einem Turnier in Doha hat er seinen Speer über 90 Meter geworfen.",
+                "Damit ist er der erst siebte Deutsche, der diese Marke geknackt hat.",
+                "Die Bauern in Südwestfalen sind mit der ersten Grasernte des Jahres zufrieden.",
+                "Sowohl die Menge als auch die Qualität stimmten.",
+                "Und das trotz der Trockenheit.",
+                "Corinna Wegler für WDR aktuell.",
+                "Es hat ja in der zweiten Aprilhälfte an ein paar Tagen so einen richtig schönen Landregen gegeben.",
+                "Und das hat gereicht, damit das Gras regelrecht explodiert ist.",
+                "Bei den Bauern, die konventionell arbeiten, ist der Grasschnitt jetzt abgeschlossen.",
+                "Die Biobauern fangen in den nächsten Wochen damit an.",
+                "Die können sich ein bisschen mehr Zeit lassen, weil ihre Tiere dieses ganz nährstoffreiche Gras,\nich sag mal diesen Booster, nicht brauchen.",
+                "Auf den nächsten Schnitt gucken alle, egal ob bio oder konventionell, mit Sorge.",
+                "Es braucht einfach mal Regen."
+            ],
+            "estimated_report_time": "2025-05-16 21:00:12",
+            "segment_start_char_offset": 0
+        }
+    ],
+    "traffic_report_segments": [
+        {
+            "sentences": [
+                "Das Neueste aus dem Verkehrszentrum, damit ihr gut und sicher ankommt.",
+                "Vorsicht erstmal auf der B256 Neuwied Richtung Waldbrühl.",
+                "Zwischen Rengsdorf Nord und Bohnefeld, da steht ein kaputtes Auto im Kurvenbereich.",
+                "Vorsicht auf der B312",
+                "Metzingen Stuttgart zwischen Riederich und Bempflingen.",
+                "In beiden Richtungen sind hier Menschen auf der Fahrbahn.",
+                "Frankfurt Richtung Würzburg zwischen Frankfurt",
+                "Süd und Offenbacher Kreuz.",
+                "Unfall, 4 Kilometer Stau.",
+                "A5 Karlsruhe",
+                "Richtung Frankfurt zwischen Kronau und Kreuzwaldorf.",
+                "4 Kilometer stockender Verkehr.",
+                "Richtung Frankfurt zwischen Gambacher Kreuz und Butzbach.",
+                "An der Baustelle 3",
+                "Kilometer Stau.",
+                "Außerdem ist die Anschlussstelle Butzbach gesperrt.",
+                "A6 Mannheim Richtung Heilbronn.",
+                "Zwischen Kreuzwaldorf und Wieslach-Rauenberg.\nUnfallaufnahme, rechte Spur gesperrt.",
+                "2 Kilometer Stau.",
+                "A8 Karlsruhe",
+                "Richtung Stuttgart zwischen 3 Karlsruhe und Karlsbad.",
+                "Baustelle auf dem linken und dem mittleren Fahrstreifen.",
+                "3 Kilometer Stauverzögerung."
+            ],
+            "estimated_report_time": "2025-05-16 21:10:08",
+            "segment_start_char_offset": 2943
+        },
+        {
+            "sentences": [
+                "Damit ihr gut und sicher ankommt, hier das Neueste aus dem Verkehrszentrum.",
+                "Frankfurt Richtung Würzburg zwischen Frankfurt",
+                "Süd und Offenbacher Kreuz.",
+                "Unfall 4 km Stau.",
+                "Richtung Frankfurt zwischen Gambacher Kreuz und Bad Nauheim an der Baustelle 4",
+                "Außerdem ist die Anschlussstelle Bad Nauheim gesperrt.",
+                "A5 Karlsruhe",
+                "Richtung Basel zwischen Karlsruhe",
+                "Süd und Rastatt Nord.",
+                "Kaputtes Auto auf dem Standstreifen rechte Spur gesperrt.",
+                "Richtung Bonn.",
+                "Hier ist die Einfahrt Lindt gesperrt.",
+                "Und letzte Meldung A8 Karlsruhe",
+                "Richtung Stuttgart zwischen 3 Karlsruhe und Karlsbad.",
+                "Baustelle auf dem linken und dem mittleren Fahrstreifen 2",
+                "km Stau.\nKommt gut und sicher und bitte bald an alle Verkehrsinfos auch jederzeit in der WDR 2 App."
+            ],
+            "estimated_report_time": "2025-05-16 21:39:21",
+            "segment_start_char_offset": 11593
+        },
+        {
+            "sentences": [
+                "Hier kommt noch ein Nachzügler aus dem Verkehrszentrum A33, Bielefeld Richtung Brilon, zwischen Paderborn-Sennelager und Paderborn-Elsen.",
+                "Zehn Minuten plus, fünf Kilometer stockender Verkehr."
+            ],
+            "estimated_report_time": "2025-05-16 21:49:54",
+            "segment_start_char_offset": 14716
+        }
+    ],
+    "weather_report_segments": [
+        {
+            "sentences": [
+                "Das war WDR aktuell.",
+                "Das Wetter in Nordrhein-Westfalen am Abend ist des größten Teils freundlich,\ntrocken und teils windig mit nur wenigen Wolken.",
+                "In Ost- und Südwestfalen dagegen einzelne Schauer.",
+                "Der Tag morgen beginnt sonnig, später gibt es dann mehr Wolken.",
+                "Schauer sind aber weiterhin die Ausnahme.",
+                "In Nürnbrech bis 17 Grad, in Dortmund 18 Grad, in Düren 20 Grad.",
+                "Am Sonntag dann dichte Wolken, mal Sonne vereinzelt Schauer."
+            ],
+            "estimated_report_time": "2025-05-16 21:08:37",
+            "segment_start_char_offset": 2493
+        }
+    ],
+    "conversation_segments": [
+        {
+            "sentences": [
+                "Ansonsten gab es keine Ergebnisse.",
+                "Die Bewertungen des Treffens gehen dennoch weit auseinander,\nerklärt Katharina Willinger, WDR Istanbul.",
+                "Die Russen, die haben sich sehr zufrieden gezeigt.",
+                "Ganz anders die Ukrainer.",
+                "Sie sprechen ja von inakzeptablen Forderungen.",
+                "Wie schauen die aus?",
+                "Beispielsweise fordern die Russen, dass die Ukrainer fünf Gebiete abtreten müssen an Russland,\ndie sie besetzt halten, dass sie ihre Armee schwächen müssen.",
+                "Das sind also die gleichen Forderungen, die wir vor drei Jahren hier in Istanbul schon mal gesehen haben."
+            ],
+            "estimated_report_time": "2025-05-16 21:00:48",
+            "segment_start_char_offset": 181
+        },
+        {
+            "sentences": [
+                "Belgien setzt weiter auf Atomkraftwerke.",
+                "Das Parlament hat dafür gestimmt, den Atomausstieg rückgängig zu machen.",
+                "Die rechte Regierung will sogar neue Reaktoren bauen.",
+                "NRW-Umweltminister Krischer mahnte an, die Sicherheitsstandards einzuhalten.",
+                "Hier dürfe es keine Abstriche geben.",
+                "In Belgien gibt es derzeit zwei Kernkraftwerke mit sieben Reaktoren.",
+                "Drei wurden allerdings vom Netz genommen.",
+                "Der Chefankläger am internationalen Strafgerichtshof",
+                "Kahn lässt sein Amt vorerst ruhen.",
+                "Eine Mitarbeiterin wirft ihm sexuelle Übergriffe vor.",
+                "Er selbst bestreitet das.",
+                "Der Fall wird jetzt von einer UNO-Kommission untersucht.",
+                "Der 55-jährige Brite ist seit 2021 im Amt und erwirkte unter anderem Haftbefehle gegen Netanyahu und Putin wegen Kriegsverbrechen.",
+                "Beim Speerwerfen hat der deutsche Athlet Julian Weber für eine Sensation gesorgt.",
+                "Bei einem Turnier in Doha hat er seinen Speer über 90 Meter geworfen.",
+                "Damit ist er der erst siebte Deutsche, der diese Marke geknackt hat.",
+                "Die Bauern in Südwestfalen sind mit der ersten Grasernte des Jahres zufrieden.",
+                "Sowohl die Menge als auch die Qualität stimmten.",
+                "Und das trotz der Trockenheit.",
+                "Corinna Wegler für WDR aktuell."
+            ],
+            "estimated_report_time": "2025-05-16 21:02:49",
+            "segment_start_char_offset": 778
+        },
+        {
+            "sentences": [
+                "Und das hat gereicht, damit das Gras regelrecht explodiert ist.",
+                "Bei den Bauern, die konventionell arbeiten, ist der Grasschnitt jetzt abgeschlossen.",
+                "Die Biobauern fangen in den nächsten Wochen damit an."
+            ],
+            "estimated_report_time": "2025-05-16 21:07:05",
+            "segment_start_char_offset": 2038
+        },
+        {
+            "sentences": [
+                "Hier so eine Viertelstunde.\nKommt gut und sicher und bald an."
+            ],
+            "estimated_report_time": "2025-05-16 21:13:33",
+            "segment_start_char_offset": 3955
+        },
+        {
+            "sentences": [
+                "WDR",
+                "2.\nWir sind der Westen.",
+                "Auf Wiedernamen."
+            ],
+            "estimated_report_time": "2025-05-16 21:14:14",
+            "segment_start_char_offset": 4159
+        },
+        {
+            "sentences": [
+                "Das fand ich ganz, ganz großartig.",
+                "Und das ist immer noch das Highlight des Monats März.",
+                "Nichts ist schlimmer, als wenn man die Tonne vergesst.",
+                "Super, Grüße gehen an die Müllmänner und Müllfrauen in Schafflund im Kreis Schleswig-Flensburg.",
+                "Klasse, echt toll.\nWäre schön.",
+                "Hier kommt noch von Sonja.",
+                "Ich saß gerade, sie schreibt es gerade passiert."
+            ],
+            "estimated_report_time": "2025-05-16 21:31:25",
+            "segment_start_char_offset": 9243
+        },
+        {
+            "sentences": [
+                "Auf jeden Fall läuft ein junges, verliebtes Pärchen an mir vorbei,\nweil zwei Meter entfernt durch Hecken getrennt noch eine Bank statt.",
+                "Ne, die steht immer noch.",
+                "Auf jeden Fall.",
+                "Was?",
+                "Ich verstehe die Nachricht nicht von dir, Sonja.",
+                "Auf jeden Fall musste Jörg in so mitleidig...",
+                "Es ging um einen Fruchtriegel.",
+                "Ich verstehe.",
+                "Ich habe so mitleidig geguckt, schreibt sie.",
+                "Weil sie alleine da saß und dann hat er ihr einen Fruchtriegel geschenkt.",
+                "Da kam ganz stolz auf sie zu und sagte so, bitte schön, ein Fruchtriegel.",
+                "Ein Fruchtriegel.",
+                "Hat sich Sonja gefreut."
+            ],
+            "estimated_report_time": "2025-05-16 21:33:01",
+            "segment_start_char_offset": 9716
+        },
+        {
+            "sentences": [
+                "Danke für die kleinen süßen Geschichten, dass die Welt noch nicht verloren ist.",
+                "Das war's.",
+                "Das war's.",
+                "Und wenn du sagst, this ist Гос almighty,iful,\nbin ich sein, were zu wegangehen.",
+                "Ich weiß davon, ich werde youelfe,\nbin ich sein, was bin ich Jan plante.",
+                "Bede Believe, ob сам Neistisch klappt ihr.",
+                "Weil du Strategie entstanden failuresen."
+            ],
+            "estimated_report_time": "2025-05-16 21:34:56",
+            "segment_start_char_offset": 10286
+        },
+        {
+            "sentences": [
+                "Bis zum nächsten Mal.",
+                "Bis zum nächsten Mal.",
+                "Bis zum nächsten Mal.",
+                "Bis zum nächsten Mal.",
+                "Bis zum nächsten Mal.",
+                "Bis zum nächsten Mal.",
+                "Bis zum nächsten Mal.",
+                "Oh, warte.",
+                "Kommt auch was Wichtiges hier.",
+                "Ich komme gleich zu euch im Auto.",
+                "Zurück.\nBleibt da.",
+                "Immer eure Hits."
+            ],
+            "estimated_report_time": "2025-05-16 21:38:20",
+            "segment_start_char_offset": 11292
+        },
+        {
+            "sentences": [
+                "Es ist halb 10."
+            ],
+            "estimated_report_time": "2025-05-16 21:39:18",
+            "segment_start_char_offset": 11577
+        },
+        {
+            "sentences": [
+                "Und hier ist Pop eure Abendshow mit Markus Bauer.",
+                "Schon Alex Warren, der mit der coolen Stimme."
+            ],
+            "estimated_report_time": "2025-05-16 21:41:57",
+            "segment_start_char_offset": 12361
+        },
+        {
+            "sentences": [
+                "Das war die hier.",
+                "Ach,\ndie mit X's and O's.",
+                "Und als\ndamals Avicii\nFrau King angefragt hat, da war sie natürlich\nsofort dabei."
+            ],
+            "estimated_report_time": "2025-05-16 21:53:46",
+            "segment_start_char_offset": 15861
+        },
+        {
+            "sentences": [
+                "Jetzt ist es da.",
+                "Avicii\nund Al King.",
+                "Hier in Pop, eure Abendshow."
+            ],
+            "estimated_report_time": "2025-05-16 21:54:50",
+            "segment_start_char_offset": 16178
+        }
+    ]
+}

@@ -17,7 +17,9 @@ class WeatherSegmentExtractor(AbstractSegmentExtractor):
             "wettervorhersage",
             "und nun zum wetter",
             "kommen wir zum wetter",
-            "ein blick auf das wetter"
+            "ein blick auf das wetter",
+            "das war wdr aktuell.",
+            "das wetter in nordrhein-westfalen am"
         ]
 
         self.RELEVANT_WEATHER_KEYWORDS = [
