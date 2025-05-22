@@ -10,13 +10,13 @@ from DownloadSpider import DownloadSpider
 from settings import DATA_PATH
 
 """
-SWR3PlaylistSpider ist ein Scrapy-Spider, der die Playlist-Daten von SWR3 abruft.
+SWR1RpPlaylistSpider ist ein Scrapy-Spider, der die Playlist-Daten von SWR1-Rp abruft.
 
 Es geht nicht unendlich weit in die Vergangenheit zurück!
 Stand 14.05.2025 ist die Abfrage bis zum 14.04.2025 möglich.
 """
-class SWR3PlaylistSpider(DownloadSpider):
-    name = "swr3_playlist"
+class SWR1RpPlaylistSpider(DownloadSpider):
+    name = "swr1_rp_playlist"
 
     custom_settings = {
         'DOWNLOAD_DELAY': 5, # Wenn der Delay zu kurz ist, wird der Aufruf mit einem 500-Fehler abgelehnt!
@@ -74,13 +74,13 @@ class SWR3PlaylistSpider(DownloadSpider):
         if DATA_PATH:
             os.makedirs(DATA_PATH, exist_ok=True)
 
-        self.logger.info(f"SWR3PlaylistSpider initialisiert für Datumsbereich: {self.start_date} bis {self.end_date}")
+        self.logger.info(f"SWR1RpPlaylistSpider initialisiert für Datumsbereich: {self.start_date} bis {self.end_date}")
 
     def start_requests(self):
         """
         Generiert die initialen Anfragen (Requests) für jede Stunde innerhalb des
         festgelegten Datumsbereichs. Für jedes Datum und jede Stunde wird eine
-        Anfrage an die SWR3-Playlist-Seite gesendet. Die Methode berücksichtigt,
+        Anfrage an die SWR1-RP-Playlist-Seite gesendet. Die Methode berücksichtigt,
         ob das Datum in der Vergangenheit, Gegenwart oder Zukunft liegt, um die
         relevanten Stunden für den Abruf zu bestimmen.
 
@@ -98,7 +98,7 @@ class SWR3PlaylistSpider(DownloadSpider):
             headers['User-Agent'] = user_agent
 
         all_possible_time_options = [f"{h:02d}:00" for h in range(24)]
-        base_url = "https://www.swr3.de/playlisten/index.html"
+        base_url = "https://www.swr.de/swr1/rp/programm/musikrecherche-swr1-rp-detail-100.html"
         
         current_processing_date = self.start_date
         while current_processing_date <= self.end_date:
@@ -215,7 +215,7 @@ class SWR3PlaylistSpider(DownloadSpider):
                 'performer': performer.strip() if performer else None
             })
 
-        json_filename = f"{SWR3PlaylistSpider.name}_{playlist_date}_{playlist_time_for_filename}.json"
+        json_filename = f"{SWR1RpPlaylistSpider.name}_{playlist_date}_{playlist_time_for_filename}.json"
         path = os.path.join(DATA_PATH, json_filename)
         
         try:

@@ -11,7 +11,7 @@ Dieses Tool ermöglicht das komfortable Durchsuchen und Taggen von Transkript-Da
 - Filterung von Transkript-Dateien nach Start- und Endzeitpunkt
 - Navigation zwischen gefundenen Dateien
 - Anzeigen des Datei-Inhalts und Vorbefüllung bereits gelabelter Dateien
-- Freie Auswahl von Tags pro Zeile (skip, news, traffic, weather, moderation)
+- Freie Auswahl von Tags pro Zeile (skip, news, traffic, weather, moderation, advertisement, music)
 - Direkte Speicherung der Änderungen in einen Zielordner
 
 ## Voraussetzungen
@@ -66,3 +66,5 @@ Hinweis: Wenn Sie Start- und Endzeit in der Streamlit-Sidebar einstellen, übers
 - `traffic`  
 - `weather`  
 - `moderation`
+- `advertisement`
+- `music`

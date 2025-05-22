@@ -1,5 +1,7 @@
 # Ignore Data
 data/
+output/
+steps.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

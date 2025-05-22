@@ -1,6 +1,8 @@
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 import SRF3PlaylistSpider
+import SWR1RpPlaylistSpider
 import SWR3PlaylistSpider
+import SWR1RpLandingPage
 import SWR3LandingPage
 import SRF3LandingPage
 from scrapy.crawler import CrawlerProcess
@@ -12,13 +14,15 @@ def run():
     process = CrawlerProcess(SETTINGS)
     
     # Set the start and end dates for the playlist retrieval
-    # @To-Do: Download once a day, for the previous day.
-    start_date = date.today().strftime("%Y-%m-%d")
-    end_date = None
-    process.crawl(SWR3PlaylistSpider.SWR3PlaylistSpider, start_date_param=start_date, end_date_param=end_date)
-    process.crawl(SRF3PlaylistSpider.SRF3PlaylistSpider, start_date_param=start_date, end_date_param=end_date)
+    # TODO: Download once a day, for the previous day. eg. cron every day at 01:00
+    start_date = (date.today() - timedelta(days=1)).strftime("%Y-%m-%d")
+    end_date = start_date
+    process.crawl(SWR1RpPlaylistSpider.SWR1RpPlaylistSpider, start_date_param=start_date, end_date_param=end_date)
+    #process.crawl(SWR3PlaylistSpider.SWR3PlaylistSpider, start_date_param=start_date, end_date_param=end_date)
+    #process.crawl(SRF3PlaylistSpider.SRF3PlaylistSpider, start_date_param=start_date, end_date_param=end_date)
     
-    # @To-Do: Now: E.g. download hourly to collect the current host, headlines etc.
+    # TODO: Now: E.g. download hourly to collect the current host, headlines etc.
+    process.crawl(SWR1RpLandingPage.SWR1RpLandingPage)
     process.crawl(SWR3LandingPage.SWR3LandingPage)
     process.crawl(SRF3LandingPage.SRF3LandingPage)
 

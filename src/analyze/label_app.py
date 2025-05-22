@@ -141,7 +141,7 @@ if file_labeled.exists():
         else:
             m = None
         existing = m.group(2) if m else None
-        tags[i] = existing if existing in ["news","traffic","weather","moderation"] else "skip"
+        tags[i] = existing if existing in ["news","traffic","weather","moderation","advertisement","music"] else "skip"
 else:
     for i in range(len(lines)):
         tags[i] = "skip"
@@ -154,7 +154,7 @@ for i, ln in enumerate(lines):
         st.markdown("---")
         continue
     _, _, text = m.groups()
-    options = ["skip","news","traffic","weather","moderation"]
+    options = ["skip","news","traffic","weather","moderation","advertisement","music"]
     default_idx = options.index(tags[i])
     col1, col2 = st.columns([7,3], gap="small")
     col1.markdown(f"**Zeile {i+1}:** {text}")

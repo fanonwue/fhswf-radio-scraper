@@ -11,7 +11,7 @@ class SRF3LandingPage(DownloadSpider.DownloadSpider):
     Spider zum Scrapen von Daten (Moderator, Schlagzeilen) von der SRF 3-Startseite.
     Nutzt Playwright für dynamische Interaktionen auf der Seite.
     """
-    name = "SRF3LandingPage"
+    name = "srf3_landing_page"
 
     def start_requests(self):
         """
