@@ -55,14 +55,27 @@ def classify(text, model_path="models/text_classifier.spacy"):
 
 
 if __name__ == "__main__":
-    folder = "data/swr3/labeled/"
+    folders_to_train = [
+        "data/swr1/labeled/", 
+        "data/swr3/labeled/", 
+        "data/wdr2/labeled/" 
+    ]
     model_path = "data/models/text_classifier.spacy"
 
-    train_data = load_tagged_lines_from_folder(folder)
-    print(f"Geladene Trainingsbeispiele: {len(train_data)}")
+    all_train_data = []
+    for folder in folders_to_train:
+        print(f"Lade Daten aus Ordner: {folder}")
+        train_data_from_folder = load_tagged_lines_from_folder(folder)
+        if train_data_from_folder:
+            all_train_data.extend(train_data_from_folder)
+            print(f"{len(train_data_from_folder)} Beispiele aus {folder} geladen.")
+        else:
+            print(f"⚠️ Keine Trainingsbeispiele in {folder} gefunden.")
 
-    if train_data:
-        train_classifier(train_data, model_path)
+    print(f"Gesamte Anzahl geladener Trainingsbeispiele: {len(all_train_data)}")
+
+    if all_train_data:
+        train_classifier(all_train_data, model_path)
 
         test_weather = "Maximal 23 Grad heute Sonne, teilweise auch ein paar dichtere Quellwolken."
         print("Vorhersage 1:", classify(test_weather, model_path))
@@ -70,4 +83,4 @@ if __name__ == "__main__":
         test_traffic = "A6 Mannheim Richtung Heilbronn zwischen Dreieck Hockenheim und Wiesloch-Raunberg 2 Kilometer."
         print("Vorhersage 2:", classify(test_traffic, model_path))
     else:
-        print("⚠️ Keine getaggten Zeilen gefunden. Bitte TAGs in den Dateien ergänzen.")
+        print("⚠️ Keine getaggten Zeilen in den angegebenen Ordnern gefunden. Bitte TAGs in den Dateien ergänzen.")
