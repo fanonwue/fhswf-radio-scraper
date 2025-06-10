@@ -1,0 +1,115 @@
+\documentclass[ngerman,a4paper,11pt,parskip=half]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\geometry{left=25mm,right=25mm,top=30mm,bottom=30mm}
+
+% -------------------------
+% Makros
+\newcommand{\datasource}[2]{\item \textbf{#1:} #2}
+% -------------------------
+
+\title{Expos\'e\\RadioMining: Eine Analyse von Radiosendern und den deutschen Charts.}
+\author{Projektgruppe 13 (Moodle Gruppe 13)}
+\date{15.~Juni~2025}
+
+\begin{document}
+\maketitle
+
+\section*{Kurze Projektbeschreibung}
+Das Projekt \textbf{\glqq RadioMining\grqq{}} untersucht einige Radiosender aus dem DACH-Raum, sowie deren
+Zusammenhang mit den offiziellen Deutschen Charts. Im Detail werden die Wiedergabe\- bzw. Playlisten, 
+sowie die Startseiten (engl. landing page) der Radiosender untersucht. Hierzu wurde ein GitHub-Projekt 
+erstellt\footnote{\url{https://github.com/fanonwue/fhswf-radio-scraper}}. \newline
+Zustätzlich werden auch gesprochene Inhalte aus Radiosendungen aufgezeichnet, transkripiert und anaylsiert.
+Hierzu wurde das Tool \texttt{audio\_miner}\footnote{\url{https://github.com/smilchsack/audio_miner}} 
+erstellt,  welches mittels \texttt{ffmpeg} die Livestreams der Sender lokal speichert. Im Anschluss werden diese mittels 
+\texttt{PyTorch} und \texttt{pyannote}\footnote{\url{https://huggingface.co/pyannote}} 
+einer simplen Sprechererkennung durchgeführt und dann der augefzeichnete Ton mithilfe von
+\texttt{OpenAI~Whisper}\footnote{\url{https://github.com/openai/whisper}} transkribiert.\newline
+Ein \texttt{Streamlit}-gestütztes Tagging-Tool 
+erlaubt das komfortable Labeln jeder Transkriptzeile 
+mit Kategorien wie \texttt{music}, \texttt{traffic} oder \texttt{advertisement}. 
+Anschließend trainiert ein \texttt{spaCy}-Klassifikator die automatische Einordnung neuer Segmente.\newline
+Zuletzt möchte das Projekt prüfen, inwieweit es möglich ist, die mittels Audio\-Mining erfassten Informationen
+mit den per Webscraping erfassten Informationen zu kombinieren.
+\newline
+
+\section*{Projektziele und Scope}
+\begin{itemize}[noitemsep,leftmargin=*]
+  \item \textbf{Datenerhebung:} Kontinuierliches Scraping der Playlists und Landingpages, 
+  sowie der Livestreams von einigen der Radiosender.
+  \item \textbf{Transkription \& Tagging:} Batch-Transkription mit 
+  \texttt{audio\_miner} und manuelle Annotation mittels des Tagging-Tools.
+  \item \textbf{Modelltraining:} Training mittels eines \texttt{spaCy}-Textklassifikators zur automatischen 
+  Segmentklassifikation.
+  \item \textbf{Vergleich mit Charts:} Abgleich der ermittelten Musikrotationen mit den Top~100 
+  der offiziellen Charts, zur Analyse der Sendernähe zu Mainstream-Trends.
+    \item \textbf{Vergleich von Nachrichten Überschriften und Transkripten:} Untersuchung der 
+    gesprochenen Inhalte
+  der Radiosender im Vergleich zu den Nachrichtenüberschriften der Radiosender.
+  \item \textbf{Visualisierung \& Bericht:} Auswertung der Ergebnisse, Visualisierung der Daten 
+  und Erstellung eines Abschlussberichts.
+\end{itemize}
+
+\section*{Genutzte Datenquellen}
+  Die nachfolgende Tabelle listet die genutzten Datenquellen auf, die für das Projekt verwendet werden:
+
+\begin{table}[h]
+\centering
+\small
+\caption{Erfasste Datenquellen}
+\begin{tabular}{lccc}
+\textbf{Sender} & \textbf{Audio (Livestream)} & \textbf{Playlists} & \textbf{Landingpage} \\\hline
+\href{https://www.swr.de/swr1/rp/index.html}{SWR1~RLP} & \checkmark & \checkmark & \checkmark \\
+\href{https://www.swr3.de/}{SWR3} & \checkmark & \checkmark & \checkmark \\
+\href{https://www.srf.ch/radio-srf-3}{SRF3} & -- & \checkmark & \checkmark \\
+\href{https://www1.wdr.de/radio/wdr2/musik/playlist/index.jsp}{WDR2} & \checkmark & \checkmark & -- \\
+\href{https://www.deutschlandfunknova.de/playlist}{DLF~Nova} & -- & \checkmark & -- \\
+\href{https://www.offiziellecharts.de/charts/single}{Offizielle Charts} & -- & \checkmark & -- \\\hline
+\end{tabular}
+\\[2mm]\emph{-- = keine Erfassung, \checkmark = Erfassung erfolgt.}
+\end{table}
+
+\section*{Vorgehensweise}
+Nachfolgend wird die Vorgehensweise des Projekts beschrieben. Das Projekt ist in vier Phasen unterteilt, 
+die jeweils unterschiedliche Aufgaben und Ziele umfassen: 1 – Entwicklung, 2 – Datenerhebung, 3 – Analyse 
+und 4 – Auswertung.
+
+\newcounter{task}
+\newcommand{\nr}{\stepcounter{task}\arabic{task}}
+
+\begin{table}[h]
+  \small
+  \centering
+  \caption{Aufgabenübersicht für das Projekt \textit{RadioMining}}
+  \begin{tabular}{@{}cp{6.8cm}p{3.7cm}c@{}}
+    \toprule
+    \textbf{Nr.} & \textbf{Aufgabe} & \textbf{Bearbeiter} & \textbf{Phase} \\ \midrule
+    \nr  & Exposé erstellen                                               & Sebastian Milchsack                                     & 1 \\
+    \nr  & Web-Crawler-Basis \& \texttt{audio\_miner} entwickeln          & Fabian Wünderich, Sebastian Milchsack                   & 1 \\
+    \nr  & Web-Crawler erstellen                                          & Sebastian Dornack, Sebastian Milchsack, Nils Robinet    & 1 \\
+    \nr  & Crawler deployen u. Daten sammeln                              & Sebastian Dornack                                       & 2 \\
+    \nr  & Audiostreams deployen, Daten sammeln u. transkribieren         & Sebastian Milchsack                                     & 2 \\
+    \nr  & Audiostreams für n-Tage taggen                                 & TBD                                                     & 3 \\
+    \nr  & Datenvorbereitung (Landingpages, Playlists)                    & TBD                                                     & 3 \\
+    \nr  & spaCy-Klassifikator trainieren                                 & TBD                                                     & 3 \\
+    \nr  & Musikrotationen $\leftrightarrow$ Top 100 abgleichen           & TBD                                                     & 4 \\
+    \nr  & News-Titel $\leftrightarrow$ Transkripte prüfen                & TBD                                                     & 4 \\
+    \nr  & Zwischenpräsentation                                           & gesamtes Team                                           & 4 \\
+    \nr  & Ergebnisse evaluieren                                          & TBD                                                     & 4 \\
+    \nr  & Resultate visualisieren, Endpräsentation u. Bericht erstellen  & gesamtes Team                                           & 4 \\ 
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\end{document}
