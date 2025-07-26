@@ -1,25 +1,43 @@
 import mimetypes
 import os.path
+import gzip
 from os import PathLike
 from datetime import datetime, timezone
 import scrapy
-from scrapy.http import Response
+from scrapy.http.response import Response
 from settings import DATA_PATH
+from pathlib import Path
 
 
 class DownloadSpider(scrapy.Spider):
-    def generate_name(self, response: Response) -> str:
+    name = ""
+    interval = None
+    compress = False
+
+    def generate_name(self, response: Response, extension = ".html") -> str:
         time = datetime.now(timezone.utc).isoformat(timespec="seconds")
         type_raw = response.headers.get("Content-Type")
-        extension = ".html"
         if type_raw is not None:
-            type = type_raw.decode("utf-8").split(';')[0]
+            type = type_raw.decode("utf-8").split(";")[0]
             extension = mimetypes.guess_extension(type, False)
         return f"{self.name}_{time}{extension}"
 
-    def save_response(self, response: Response, path: PathLike|None = None, **kwargs):
-        if path is None:
-            path = self.generate_name(response)
+    def save_response(self, response: Response, path: PathLike | None = None, **kwargs):
+        if not self.name:
+            raise Exception(
+                "The spider must have a valid name attribute. Please add name to the class."
+            )
 
-        with open(os.path.join(DATA_PATH, path), "wb") as f:
-            f.write(response.body)
+        if path is None:
+            path = Path(self.generate_name(response))
+
+        directory = str(os.path.join(DATA_PATH, self.name))
+        parsed_directory = str(os.path.join(directory, 'parsed'))
+        Path(parsed_directory).mkdir(parents=True, exist_ok=True)
+
+        if self.compress:
+            with gzip.open(os.path.join(directory, path) + ".gz", "wb") as f:
+                f.write(response.body)
+        else:
+            with open(os.path.join(directory, path), "wb") as f:
+                f.write(response.body)

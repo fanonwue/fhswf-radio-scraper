@@ -16,6 +16,9 @@ Stand 14.05.2025 ist die Abfrage bis zum 30.04.2025 möglich.
 """
 class SRF3PlaylistSpider(DownloadSpider):
     name = "srf3_playlist"
+    # run daily
+    interval = 60 * 60 * 24
+    compress = True
 
     def __init__(self, start_date_param=None, end_date_param=None, *args, **kwargs):
         """
@@ -152,7 +155,7 @@ class SRF3PlaylistSpider(DownloadSpider):
 
         if songs:
             filename = f"{SRF3PlaylistSpider.name}_{filename_date_str}.json"
-            filepath = os.path.join(DATA_PATH, filename)
+            filepath = os.path.join(DATA_PATH, self.name, 'parsed', filename)
             try:    
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(songs, f, ensure_ascii=False, indent=4)

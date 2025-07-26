@@ -12,6 +12,9 @@ class SWR1RpLandingPage(DownloadSpider.DownloadSpider):
     Nutzt Playwright für dynamische Interaktionen auf der Seite.
     """
     name = "swr1_rp_landing_page"
+    # run hourly
+    interval = 60 * 60
+    compress = True
 
     def start_requests(self):
         """
@@ -65,7 +68,7 @@ class SWR1RpLandingPage(DownloadSpider.DownloadSpider):
         }
         ts = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
         fname = f"{SWR1RpLandingPage.name}_{ts}.json"
-        outdir = os.path.join(DATA_PATH, fname)
+        outdir = os.path.join(DATA_PATH, self.name, 'parsed', fname)
         with open(outdir, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 

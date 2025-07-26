@@ -133,3 +133,9 @@ dmypy.json
 *.swo
 *~
 .DS_Store
+.idea
+data/*
+!.gitkeep
+__pycache__
+.venv
+last_runs.json

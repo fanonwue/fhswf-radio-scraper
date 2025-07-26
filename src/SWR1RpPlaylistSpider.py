@@ -17,6 +17,9 @@ Stand 14.05.2025 ist die Abfrage bis zum 14.04.2025 möglich.
 """
 class SWR1RpPlaylistSpider(DownloadSpider):
     name = "swr1_rp_playlist"
+    # run daily
+    interval = 60 * 60 * 24
+    compress = True
 
     custom_settings = {
         'DOWNLOAD_DELAY': 5, # Wenn der Delay zu kurz ist, wird der Aufruf mit einem 500-Fehler abgelehnt!
@@ -216,7 +219,7 @@ class SWR1RpPlaylistSpider(DownloadSpider):
             })
 
         json_filename = f"{SWR1RpPlaylistSpider.name}_{playlist_date}_{playlist_time_for_filename}.json"
-        path = os.path.join(DATA_PATH, json_filename)
+        path = os.path.join(DATA_PATH, self.name, 'parsed', json_filename)
         
         try:
             with open(path, "w", encoding="utf-8") as f:
