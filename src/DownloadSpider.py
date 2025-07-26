@@ -14,10 +14,9 @@ class DownloadSpider(scrapy.Spider):
     interval = None
     compress = False
 
-    def generate_name(self, response: Response) -> str:
+    def generate_name(self, response: Response, extension = ".html") -> str:
         time = datetime.now(timezone.utc).isoformat(timespec="seconds")
         type_raw = response.headers.get("Content-Type")
-        extension = ".html"
         if type_raw is not None:
             type = type_raw.decode("utf-8").split(";")[0]
             extension = mimetypes.guess_extension(type, False)
