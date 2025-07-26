@@ -31,8 +31,8 @@ class DownloadSpider(scrapy.Spider):
         if path is None:
             path = Path(self.generate_name(response))
 
-        directory = os.path.join(DATA_PATH, self.name).__str__()
-        parsed_directory = os.path.join(directory, 'parsed').__str__()
+        directory = str(os.path.join(DATA_PATH, self.name))
+        parsed_directory = str(os.path.join(directory, 'parsed'))
         Path(parsed_directory).mkdir(parents=True, exist_ok=True)
 
         if self.compress:
