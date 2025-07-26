@@ -25,36 +25,42 @@ def run():
     # TODO: Download once a day, for the previous day. eg. cron every day at 01:00
     start_date = (date.today() - timedelta(days=1)).strftime("%Y-%m-%d")
     end_date = start_date
-    process.crawl(SWR1RpPlaylistSpider.SWR1RpPlaylistSpider, start_date_param=start_date, end_date_param=end_date)
+    # process.crawl(SWR1RpPlaylistSpider.SWR1RpPlaylistSpider, start_date_param=start_date, end_date_param=end_date)
     #process.crawl(SWR3PlaylistSpider.SWR3PlaylistSpider, start_date_param=start_date, end_date_param=end_date)
     #process.crawl(SRF3PlaylistSpider.SRF3PlaylistSpider, start_date_param=start_date, end_date_param=end_date)
-    
-    # TODO: Now: E.g. download hourly to collect the current host, headlines etc.
-    process.crawl(SWR1RpLandingPage.SWR1RpLandingPage)
-    process.crawl(SWR3LandingPage.SWR3LandingPage)
-    process.crawl(SRF3LandingPage.SRF3LandingPage)
-
 
     spiders_to_run = []
-    spiders_to_run.append(OffizielleChartsSpider)
-    spiders_to_run.append(DLFNovaSpider)
+    spiders_to_run.append({'spider': SWR1RpPlaylistSpider.SWR1RpPlaylistSpider, 'args': {'start_date_param': start_date, 'end_date_param': end_date}})
+    spiders_to_run.append({'spider': SWR1RpLandingPage.SWR1RpLandingPage, 'args': {}})
+    spiders_to_run.append({'spider': SWR3LandingPage.SWR3LandingPage, 'args': {}})
+    spiders_to_run.append({'spider': SRF3LandingPage.SRF3LandingPage, 'args': {}})
+    spiders_to_run.append({'spider': OffizielleChartsSpider, 'args': {}})
+    spiders_to_run.append({'spider': DLFNovaSpider, 'args': {}})
 
     for spider_to_run in spiders_to_run:
-        if spider_can_run(last_run_list, spider_to_run.name, spider_to_run.interval):
-            process.crawl(spider_to_run)
-            update_last_runs_list.append(spider_to_run.name)
+        if spider_can_run(last_run_list, spider_to_run['spider'].name, spider_to_run['spider'].interval):
+            try:
+                process.crawl(spider_to_run['spider'], **spider_to_run['args'])
+                update_last_runs_list.append(spider_to_run['spider'].name)
+            except Exception as e:
+                print(f"Error when running spider {spider_to_run['spider'].name}!")
+                print(str(e))
         else:
-            print(f"Skipping spider {spider_to_run.name}, interval not reached.")
+            print(f"Skipping spider {spider_to_run['spider'].name}, interval not reached.")
 
-    process.start()
+    try:
+        process.start()
+    except Exception as e:
+        print(f"Error while running scrapy!")
+        print(str(e))
     update_last_runs(update_last_runs_list)
 
 
 def get_last_runs() -> dict:
-    if not os.path.isfile("last_runs.json"):
+    if not os.path.isfile("data/last_runs.json"):
         return {}
     else:
-        with open("last_runs.json", "r") as f:
+        with open("data/last_runs.json", "r") as f:
             try:
                 return json.load(f)
             except Exception:
@@ -66,7 +72,7 @@ def update_last_runs(last_runs_list: list):
     last_runs = get_last_runs()
     for last_run in last_runs_list:
         last_runs[last_run] = time
-    with open("last_runs.json", "w") as f:
+    with open("data/last_runs.json", "w") as f:
         json.dump(last_runs, f)
 
 

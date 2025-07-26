@@ -33,7 +33,8 @@ class DownloadSpider(scrapy.Spider):
             path = Path(self.generate_name(response))
 
         directory = os.path.join(DATA_PATH, self.name).__str__()
-        Path(directory).mkdir(parents=True, exist_ok=True)
+        parsed_directory = os.path.join(directory, 'parsed').__str__()
+        Path(parsed_directory).mkdir(parents=True, exist_ok=True)
 
         if self.compress:
             with gzip.open(os.path.join(directory, path) + ".gz", "wb") as f:

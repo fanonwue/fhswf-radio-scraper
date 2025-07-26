@@ -5,6 +5,7 @@ class OffizielleChartsSpider(DownloadSpider):
     name = "OffizielleCharts"
     # run daily
     interval = 60 * 60 * 24
+    compress = True
 
     def start_requests(self):
         yield scrapy.Request("https://www.offiziellecharts.de/charts/single")
