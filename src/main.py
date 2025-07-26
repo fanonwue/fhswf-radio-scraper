@@ -31,6 +31,8 @@ def run():
 
     spiders_to_run = []
     spiders_to_run.append({'spider': SWR1RpPlaylistSpider.SWR1RpPlaylistSpider, 'args': {'start_date_param': start_date, 'end_date_param': end_date}})
+    spiders_to_run.append({'spider': SWR3PlaylistSpider.SWR3PlaylistSpider, 'args': {'start_date_param': start_date, 'end_date_param': end_date}})
+    spiders_to_run.append({'spider': SRF3PlaylistSpider.SRF3PlaylistSpider, 'args': {'start_date_param': start_date, 'end_date_param': end_date}})
     spiders_to_run.append({'spider': SWR1RpLandingPage.SWR1RpLandingPage, 'args': {}})
     spiders_to_run.append({'spider': SWR3LandingPage.SWR3LandingPage, 'args': {}})
     spiders_to_run.append({'spider': SRF3LandingPage.SRF3LandingPage, 'args': {}})
