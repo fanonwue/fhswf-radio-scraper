@@ -11,6 +11,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.utils.reactor import install_reactor
 from OffizielleChartsSpider import OffizielleChartsSpider
 from DLFNovaSpider import DLFNovaSpider
+from NRWLokalradiosSpider import NRWLokalradiosSpider
 from settings import SETTINGS
 import os.path
 
@@ -41,6 +42,7 @@ def run():
     spiders_to_run.append({'spider': DLFNovaSpider, 'args': {}})
     spiders_to_run.append({'spider': WdrSpider.Wdr1Spider, 'args': {}})
     spiders_to_run.append({'spider': WdrSpider.Wdr2Spider, 'args': {}})
+    spiders_to_run.append({'spider': NRWLokalradiosSpider, 'args': {}})
 
     for spider_to_run in spiders_to_run:
         if spider_can_run(last_run_list, spider_to_run['spider'].name, spider_to_run['spider'].interval):
