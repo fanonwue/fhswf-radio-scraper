@@ -6,6 +6,7 @@ import SWR3PlaylistSpider
 import SWR1RpLandingPage
 import SWR3LandingPage
 import SRF3LandingPage
+import WdrSpider
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.reactor import install_reactor
 from OffizielleChartsSpider import OffizielleChartsSpider
@@ -39,6 +40,8 @@ def run():
     spiders_to_run.append({'spider': SRF3LandingPage.SRF3LandingPage, 'args': {}})
     spiders_to_run.append({'spider': OffizielleChartsSpider, 'args': {}})
     spiders_to_run.append({'spider': DLFNovaSpider, 'args': {}})
+    spiders_to_run.append({'spider': WdrSpider.Wdr1Spider, 'args': {}})
+    spiders_to_run.append({'spider': WdrSpider.Wdr2Spider, 'args': {}})
     spiders_to_run.append({'spider': NRWLokalradiosSpider, 'args': {}})
 
     for spider_to_run in spiders_to_run:
