@@ -10,7 +10,9 @@ from settings import DATA_PATH
 
 
 class WdrSpider(DownloadSpider.DownloadSpider):
-
+    interval = 60 * 60
+    compress = True
+    
     def parse_wdr_time(self, time_str: str) -> str:
         # Convert the time string to a datetime object
         dt = datetime.strptime(time_str, r"%d.%m.%Y,%H.%M Uhr")
@@ -45,9 +47,8 @@ class WdrSpider(DownloadSpider.DownloadSpider):
             'title': title,
             'performer': performer
             })
-
-        json_path = self.generate_name(response) + '.json'
-        with open(os.path.join(DATA_PATH, json_path), "wb") as f:
+        json_path = os.path.join(DATA_PATH, self.name, 'parsed', self.generate_name(response) + '.json')
+        with open(json_path, "wb") as f:
             f.write(json.dumps(playlist_data, indent=4).encode('utf-8'))
 
 
