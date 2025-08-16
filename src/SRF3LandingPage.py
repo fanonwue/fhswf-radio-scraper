@@ -27,8 +27,8 @@ class SRF3LandingPage(DownloadSpider.DownloadSpider):
             meta={
                 "playwright": True,
                 "playwright_page_methods": [
-                    PageMethod("wait_for_selector", 'div.content-header__slot--third .simple-teaser__title', timeout=15000),
-                    PageMethod("wait_for_selector", '.teaser-ng__title', timeout=15000)
+                    PageMethod("wait_for_selector", 'div.radio-content-header__slot--third .radio-content-header-teaser__title', timeout=15000),
+                    PageMethod("wait_for_selector", 'span.teaser__title', timeout=15000)
                 ]
             }
         )
@@ -42,11 +42,11 @@ class SRF3LandingPage(DownloadSpider.DownloadSpider):
         super().save_response(response)
 
         # Presenter extrahieren
-        presenter = response.css('div.content-header__slot--third .simple-teaser__title::text').get()
+        presenter = response.css('div.radio-content-header__slot--third .radio-content-header-teaser__title::text').get()
         presenter = presenter.strip() if presenter else None
 
         # Headlines extrahieren
-        headlines_elements = response.css('.teaser-ng__title::text').getall()
+        headlines_elements = response.css('span.teaser__title::text').getall()
         headlines = [h.strip() for h in headlines_elements if h.strip()]
 
 
