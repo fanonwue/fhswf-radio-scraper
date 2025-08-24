@@ -73,6 +73,12 @@ def analyzeArtistsAndSongs(performerStats:dict, station: str, drawFigures:bool, 
             if s != 'cnt':
                 songs.append((p,s,performerStats[p][s]))
     songs = sorted(songs, key=lambda x: x[2], reverse=True)
+    
+    # Sum of all songs played
+    sumSongs = sum([o[2] for o in songs])
+    # Sum of the times the top ten artists have been played accross all statios
+    topSongs = sum([o[2] for o in songs[:topCount]]) 
+    logging.info( f'There have been {sumSongs} songs aired. Of those songs {topSongs} where in the {topCount} most played songs ({(topSongs/sumSongs)*100:.2f}%)')
 
     #output_str = f'Top {topCount} Songs: \n                          '+ '\n                          '.join( [f'{s[0]} - {s[1]}: {s[2]}' for s in songs[:topCount] ])
     #logging.info(output_str)
