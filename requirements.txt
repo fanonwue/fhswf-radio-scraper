@@ -3,3 +3,4 @@ scrapy-playwright==0.0.43
 #Anaylse
 spacy
 langdetect
+matplotlib==3.10.5

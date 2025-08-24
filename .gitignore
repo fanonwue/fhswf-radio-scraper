@@ -1,6 +1,8 @@
 # Ignore Data
 data/
 output/
+output_analysis/
+crawler_*
 steps.txt
 
 # Byte-compiled / optimized / DLL files
