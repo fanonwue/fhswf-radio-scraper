@@ -139,3 +139,39 @@ data/*
 __pycache__
 .venv
 last_runs.json
+
+node_modules/
+dist/
+data/
+.vscode/
+.env
+
+## Python / Conda / envs
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Conda environments and caches
+/.conda/
+envs/
+conda-meta/
+pkgs/
+*.conda
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+
+# lockfiles and local env files
+environment.yml.lock
