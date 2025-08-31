@@ -1,0 +1,14 @@
+name: radiomining
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - python-dateutil
+  - rich
+  - typer
+  - tzdata
+  - pip:
+      - openai>=1.40.0
+      - python-dotenv
