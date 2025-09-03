@@ -28,7 +28,8 @@ def getUniquieArtists(data: list[dict]) -> list[str]:
     uniqueArtists = set()
     for entry in data:
         if 'performer' in entry:
-            uniqueArtists.add(entry['performer'])
+            for artist in loadLib.splitArtists(entry['performer']):
+                uniqueArtists.add(artist)
     uniqueArtists = list(uniqueArtists)
     return uniqueArtists
 
@@ -66,8 +67,7 @@ def getArtistGenres(artist: str, headers: dict) -> tuple[list[str], int]:
     data = response.json()
     if not data.get('artists') or not data['artists'].get('items'):
         logging.info(f'No artist found for {artist}')
-        breakpoint()
-        return [], response.status_code
+        return ['Unknown'], response.status_code
 
     artist_data = data['artists']['items'][0]
     genres = artist_data.get('genres', [])
@@ -96,73 +96,6 @@ def drawGenerePieChart(artistGenres: list[tuple[str,list[str]]], title=''):
     logging.info(f'Saving figure as {outFile}')
     plt.savefig(outFile)
     plt.show()
-
-def simpifyGenreList(artistGenres: list[str]) -> list[str]:
-    '''
-    Simplify genre list by merging similar genres.
-    '''
-    # basic simplification map for merging similar genres
-    base_genres = ['rock', 'pop', 'hip hop', 'jazz', 'classical', 'electro', 'country', 
-                   'blues', 'reggae', 'metal', 'punk', 'folk', 'soul', 'funk', 'disco', 'jazz', 
-                   'unknown', 'dance', 'schlager', 'indie', 'r&b', 'reggae', 'afro', 'latin', 'spoken word']
-    # special cases
-    simplification_map = {
-        'rnb': 'r&b','edm': 'electronic','new wave': 'pop','post-hardcore': 'rock','post hardcore': 'rock','singer-songwriter': 'folk','singer songwriter': 'folk',
-        'grime': 'hip hop', 'uk grime': 'hip hop', 'neue deutsche welle': 'pop','uk drill': 'hip hop', 'grunge': 'rock', 'motown': 'soul', 'melodic rap': 'hip hop', 
-        'synthwave': 'electronic', 'chicago drill': 'hip hop', 'drill': 'hip hop', 'hi-nrg': 'electronic', 'techengue': 'electronic', 'chanson': 'folk', 
-        'techengue': 'electronic', 'alté': 'electronic', 'miami bass': 'hip hop', 'americana': 'folk', 'new age': 'classical', 'gabber': 'electronic', 'cold wave': 'rock',
-        'americana': 'folk', 'new rave': 'electronic', 'shoegaze': 'rock', 'grime': 'hip hop', 'uk grime': 'hip hop', 'hi-nrg': 'electronic', 'post-grunge': 'rock',
-        'big room': 'electronic', 'christmas': 'pop', 'children\'s music': 'pop', 'new jack swing': 'r&b', 'horrorcore': 'hip hop', 'ebm': 'electronic', 
-        'darkwave': 'rock', 'industrial': 'rock', 'madchester': 'electronic','big band': 'jazz','variété française': 'pop','hardstyle': 'electronic','musicals': 'pop',
-        'polka': 'folk','easy listening': 'pop','orchestra': 'classical','anime': 'pop','honky tonk': 'folk','drum and bass': 'electronic','tekno': 'electronic',
-        'bassline': 'electronic','aor': 'rock','dub': 'electronic','quiet storm': 'r&b','bluegrass': 'folk','sertanejo': 'latin','candombe': 'latin', 'bossa nova': 'latin',
-        'samba': 'latin', 'nova mpb': 'latin', 'mpb': 'latin', 'forró': 'latin', 'forró tradicional': 'latin', 'arrocha': 'latin', 'piseiro': 'latin','sertanejo universitário': 'latin', 
-        'sertanejo tradicional': 'latin', 'mariachi': 'latin', 'son cubano': 'latin', 'salsa': 'latin', 'merengue': 'latin', 'bachata': 'latin','bolero': 'latin', 'tango': 'latin', 
-        'cha cha cha': 'latin', 'tejano': 'latin', 'villancicos': 'latin', 'trova': 'latin', 'chanson québécoise': 'latin', 'maluku': 'latin', 'cajun': 'latin', 'brazilian phonk': 'latin',
-        'amapiano': 'afro', 'gqom': 'afro', 'azonto': 'afro', 'hiplife': 'afro', 'bongo flava': 'afro', 'kuduro': 'afro', 'shatta': 'afro', 'kizomba': 'afro', 'zouk': 'afro', 
-        'kompa': 'afro', 'soca': 'afro','comedy': 'spoken word', 'worship': 'spoken word', 'christian': 'spoken word', 'gospel': 'spoken word','soudtrack': 'classical',
-        'uk garage': 'electronic','bhangra': 'folk','chillwave': 'electronic','flamenco': 'folk','downtempo': 'electronic','lounge': 'electronic','brazilian bass': 'electronic',
-        'newgrass': 'folk','breakbeat': 'electronic','ska': 'reggae','future bass': 'electronic','lo-fi beats': 'electronic','neo-psychedelic': 'rock','gnawa': 'folk',
-        'boogie-woogie': 'jazz','phonk': 'hip hop','drift phonk': 'hip hop','red dirt': 'country','lullaby': 'classical','jungle': 'electronic','raï': 'folk','sea shanties': 'folk',
-        'ballroom vogue': 'electronic','chillstep': 'electronic','adult standards': 'pop','arabesk': 'folk','riot grrrl': 'punk','jam band': 'rock','swing music': 'jazz','celtic': 'folk',
-        'moombahton': 'electronic','deathcore': 'metal','chamber music': 'classical','vocaloid': 'electronic','idm': 'electronic','big beat': 'electronic','southern gothic': 'folk',
-        'native american music': 'folk','canzone napoletana': 'folk','neomelodico': 'folk','ragga': 'reggae','soundtrack': 'classical','iskelmä': 'folk','bounce': 'hip hop','psychobilly': 'rock',
-        'freestyle': 'hip hop','nightcore': 'electronic','opera': 'classical','requiem': 'classical','frenchcore': 'electronic','slowcore': 'rock','ambient': 'electronic','drone': 'electronic',
-        'glitch': 'electronic','choral': 'classical','minimalism': 'classical','riddim': 'electronic','doo-wop': 'pop','djent': 'metal','opm': 'pop','fado': 'folk','queercore': 'punk',
-        'avant-garde': 'classical','agronejo': 'latin','ccm': 'spoken word','gregorian chant': 'classical','medieval': 'classical','noise music': 'electronic','baltimore club': 'electronic',
-        'boom bap': 'hip hop',
-    } 
-    partial_match_map = {
-        'hop' : 'hip hop',
-        'house' : 'electronic',
-        'techno': 'electronic',
-        'trance': 'electronic',
-        'rap': 'hip hop',
-        'hardcore': 'rock',
-        'singer-songwriter': 'folk',
-        'emo': 'rock',
-    }
-    simplified_genres = list()
-    genreCount = {}
-    for artist, genres in artistGenres:
-        for genre in genres:
-            thisGenres = list()
-            if genre in simplification_map:
-                if simplification_map[genre] not in thisGenres:
-                    thisGenres.append(simplification_map[genre])
-            elif any(pm in genre.lower() for pm in partial_match_map):
-                for pm in partial_match_map:
-                    if pm in genre.lower() and partial_match_map[pm] not in thisGenres:
-                        thisGenres.append(partial_match_map[pm])
-            elif(any(bg in genre.lower() for bg in base_genres)):
-                for bg in base_genres:
-                    if bg in genre.lower() and bg not in thisGenres:
-                        thisGenres.append(bg)
-            else:
-                print(f'{genre}, ')
-                thisGenres.append(genre)
-        simplified_genres.append((artist, thisGenres))
-    return list(simplified_genres)
 
 def main(baseDir: str):
     CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
@@ -196,7 +129,8 @@ def main(baseDir: str):
 
     for idx, artist in enumerate(uniquArtists):
         # only query for songs we do not have yet
-        #logging.info(f'Processing artist {idx+1}/{len(uniquArtists)}: {artist}')
+        if (idx % 50) == 0 and idx > 0:
+            logging.info(f'Processing artist {idx+1}/{len(uniquArtists)}: {artist}')
         if any(s[0] == artist for s in artistsWithGenres):
             continue
         try:
@@ -219,10 +153,16 @@ def main(baseDir: str):
         else:
             logging.warning(f'No genres found for artist: {artist}')
         # Save progress after each artist to avoid data loss
-        with open(jsonPath, 'w', encoding='utf-8') as fp:
-            json.dump(artistsWithGenres, fp, ensure_ascii=False, indent=4)
+        if (idx % 10) == 0:
+            with open(jsonPath, 'w', encoding='utf-8') as fp:
+                json.dump(artistsWithGenres, fp, ensure_ascii=False, indent=4)
     
-    drawGenerePieChart(simpifyGenreList(artistsWithGenres), title='')
+    # Final save of all data
+    with open(jsonPath, 'w', encoding='utf-8') as fp:
+        json.dump(artistsWithGenres, fp, ensure_ascii=False, indent=4)
+    
+    drawGenerePieChart(loadLib.simpifyGenreList(artistsWithGenres), title='')
+    drawGenerePieChart(artistsWithGenres, title='Genre raw all artists')
     
 
 def getArgPars():
